@@ -1,0 +1,3551 @@
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/main_code_1.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/main_code_2.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/main_code_3.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/main_code_4mob.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/prof_form_over.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/q01_alter_menu.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/q03_history_bookmarks.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/q06_ava_screen_center.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/q07_ava_screen_center_addon.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/q08_alter_sitemenu.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/cosmo-library/q10-04_quick-access-panel_0.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/cosmo-library/q10-05_slider_0.css");
+@import url("https://raw.githubusercontent.com/gm-c/gm-c.github.io/master/cssfiles/cosmo-library/q10-06_mega-slider_0.css");
+@import url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/HistoryDates.css);
+
+
+body:after {
+  background-image: url(http://s13.pikabu.ru/post_img/big/2021/04/22/7/1619086567169957496.jpg);
+}
+@media screen and (min-width: 1px) {
+  html:root {
+   --white-color: 255, 245, 254;
+    --light-color: 255, 245, 254;
+    --dark-color: 122, 211, 255;
+    --bright-color: 0, 204, 255;
+    --dull-color: 178, 210, 202;
+    --input-color: 178, 210, 202;
+    --hover-bottoms-1: 143, 175, 242;
+    --buttoms-color: 39, 165, 190;
+    --hover-buttoms-2: 143, 175, 242;
+    --very-high-rating: 30, 185, 245;
+    --high-rating: 6, 151, 223;
+    --average-rating: 5, 134, 200;
+    --small-rating: 5, 98, 140;
+    --time-filled: 41, 130, 224;
+    --time-empty: 5, 98, 140;
+    --anime-inprocess: 5, 98, 140;
+    --anime-complete: 30, 185, 245;
+    --manga-inprocess: 5, 98, 140;
+    --manga-complete: 30, 185, 245;
+    --hover-color: 143, 175, 242;
+    --shadows-color: 131, 170, 190;
+    --block-color: 39, 165, 190;
+    --menu-back: 2, 63, 92;
+    --nick-cover: 30, 185, 245;
+    --popup-color: 61, 125, 125;
+    --hundred: 1;
+  }
+}
+@media screen and (max-width: 767px){
+.p-profiles .profile-head .c-info .c-additionals div a[href$="/reviews"] {
+    width: 85px;
+    padding: 1.3rem 10px 10px 10px;
+    height: 60px;
+    vertical-align: middle;
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 20%) !important;
+    border-radius:10px 70px ;
+    background: linear-gradient(90deg, #0f0f0f1f, #2cb5cb);
+    border-left: 0px solid #d8dde4;
+}
+}
+@media screen and (max-width: 767px){
+.p-profiles .profile-head .c-info .c-additionals div a[href$="/comments"] {
+    width: 110px;
+    margin-bottom: 20px;
+    padding: 13px 10px 10px 10px;
+    height: 60px;
+    vertical-align: middle;
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 20%) !important;
+  border-radius: 70px 10px;
+    background: linear-gradient(90deg, #2cb5cb, #0f0f0f1f);
+    border-left: 0px solid #d8dde4;
+}
+}
+body#profiles_show .subheadline {
+    margin-bottom: 10px;
+    border-radius: 70px 10px;
+    background: linear-gradient(90deg, #2cb5cb, #0f0f0f1f);
+    border-left: 0px solid #d8dde4;
+}
+#profiles_show .achievements .header {
+    position: relative;
+    justify-content: center;
+    margin: 4px 4px;
+    padding: 6px 10px 5px;
+    line-height: 1;
+    box-shadow: 0 2px 6px 2px rgba(var(--block-color), 0.8);
+    border-radius: 70px 10px;
+    background: linear-gradient(90deg, #2cb5cb, #0f0f0f1f);
+    border-left: 0px solid #d8dde4;
+}
+
+
+body:before {
+  content:'';
+   background-image: url("http://www.personal.psu.edu/wrc11/memerememberme/dw15_geld/assets/1glitterbg.gif") ;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  animation: snow 1000s linear infinite;
+  transform: translate(0, 0);
+  filter:grayscale(1);
+}
+@keyframes snow {
+  0% {
+    background-position: 50000px 50000px;
+  }
+  100% {
+    background-position: 50000px 0px
+  }
+}
+
+
+
+
+@media screen and (min-width: 1200px){
+.l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:before {
+    content: '\f008';
+    width: 55px;
+    color: rgb(110 110 110);
+    font-size: 25px;
+    margin-top: -2px;
+    position: relative;
+}
+}
+@media screen and (min-width: 1200px){
+.l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:before, .icon-anime_list:before {
+    content: '\f02d';
+    width: 55px;
+     color: rgb(110 110 110);
+    font-size: 27px;
+}
+}
+.b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
+    background: #01020e;
+    border-color: rgba(var(--block-color), 0.4);
+    color: #cfe0ec;
+}
+.b-catalog_entry.planned {
+    background: rgb(48 54 60 / 62%);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.b-add_to_list.on_hold .trigger, .b-add_to_list.on_hold .option {
+    background: #120a02;
+    border-color: rgba(var(--block-color), 0.4);
+    color: #ebeef1;
+}
+.b-catalog_entry.on_hold {
+    background: rgb(90 79 68 / 62%);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.b-add_to_list.completed .trigger, .b-add_to_list.completed .option {
+    background: #000400;
+    border-color: #E0EFC0;
+    color: #419541;
+}
+.b-catalog_entry.completed {
+    background: rgb(37 46 37 / 62%);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.b-add_to_list.dropped .trigger, .b-add_to_list.dropped .option {
+    background: #100201;
+    border-color: rgba(var(--block-color), 0.4);
+    color: #f2ddcc;
+}
+.b-catalog_entry.dropped {
+    background: rgb(94 52 73 / 62%);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.b-add_to_list.watching .trigger, .b-add_to_list.watching .option {
+    background: #030016;
+    border-color: rgba(var(--block-color), 0.4);
+    color: #d8f8f6;
+}
+.b-catalog_entry.watching {
+    background: rgb(61 59 92 / 62%);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+
+.l-footer:after {
+  content: "Kesterr's theme";
+}
+
+@media screen and (min-width: 1px) {
+  .correct-mob-version {
+    color: inherit;
+  }
+}
+
+/* Внутреннее свечение пунктов меню */
+.l-top_menu-v2 .submenu > a:hover,
+.l-top_menu-v2 .menu-dropdown > button:not(.mobile):hover,
+.l-top_menu-v2 .menu-dropdown > button:not(.mobile) a:hover {
+  box-shadow: 0 0 20px rgba(255,255,255,.6),
+              0 0 20px rgba(255,255,255,1) inset;
+  transition: 1s;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.p-profiles .b-achievement[data-hint^='100 просмотренных аниме'] .inner img {visibility: hidden;}
+.p-profiles .b-achievement[data-hint^='100 просмотренных аниме'] .inner .border {border-color: transparent  !important;}
+.p-profiles .b-achievement[data-hint^='100 просмотренных аниме'] .inner:after {
+ display: block;
+  content: '';
+   background: url(https://i.pinimg.com/originals/05/7a/6e/057a6eccd9d0670af4085bc6065701a6.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: visible !important;
+  z-index: -1;
+}
+
+/*** Жанровые ***/
+
+.p-profiles .b-achievement[data-hint^='Фэнтези'] .inner img {visibility: hidden;}
+.p-profiles .b-achievement[data-hint^='Фэнтези'] .inner .border {border-color: transparent  !important}
+.p-profiles .b-achievement[data-hint^='Фэнтези'] .inner:after {
+  display: block;
+  content: '';
+  background: url(https://64.media.tumblr.com/71ee117e5b3257b0066febc027316eaa/8e2813f7c2852b79-5f/s500x750/33920d46e92a384ae8130609d8a6728fe1b9af15.gifv);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: visible !important;
+  z-index: -1;
+}
+.p-profiles .b-achievement[data-hint^='Драма'] .inner img {visibility: hidden;}
+.p-profiles .b-achievement[data-hint^='Драма'] .inner .border {border-color: transparent  !important}
+.p-profiles .b-achievement[data-hint^='Драма'] .inner:after {
+  display: block;
+  content: '';
+ background: url(https://i.pinimg.com/originals/63/f5/c2/63f5c2fdb555269c641dc3e7951c8a31.gif);
+  background-size: cover;
+  background-position: right 35% bottom 45%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: visible !important;
+  z-index: -1;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.b-collection-topic .collection-groups .cc-collection-groups {
+  display: flex;
+  flex-wrap: wrap;
+  width: 103.5%;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .c-column {
+  margin-right: 0.92% !important;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry {
+  order: 9;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.completed {
+  order: 1;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.watching {
+  order: 2;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.rewatching {
+  order: 3;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.on_hold {
+  order: 4;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.planned {
+  order: 5;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > .b-catalog_entry.dropped {
+  order: 6;
+}
+.b-collection-topic .collection-groups .cc-collection-groups > [class~="completed"],
+.b-collection-topic .collection-groups .cc-collection-groups > [class~="watching"],
+.b-collection-topic .collection-groups .cc-collection-groups > [class~="rewatching"],
+.b-collection-topic .collection-groups .cc-collection-groups > [class~="on_hold"],
+.b-collection-topic .collection-groups .cc-collection-groups > [class~="planned"],
+.b-collection-topic .collection-groups .cc-collection-groups > [class~="dropped"] {
+  /* display:none; */
+}
+
+@media screen and (min-width: 1530px){
+.p-profiles .profile-head .c-brief .avatar img {
+    width: 166px;
+    height: auto;
+  animation-name: fly;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  
+}
+}
+@keyframes fly {
+    0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(12px);
+  }
+}
+@media screen and (min-width: 1200px){
+#profiles_show .profile-head .c-brief header {
+    text-align: center;
+    margin: 5px;
+    padding: 0.65rem 0;
+}
+}
+/* Изменение курсора */
+@import url(https://css-club.web.app/css/custom_cursor.css);
+
+:root {
+  /* Курсор по умолчанию */
+  --cursor-default: url(https://i.imgur.com/AN9K3mv.png);
+  /* Курсор при наведении */
+  --cursor-pointer: url(https://i.imgur.com/OI0Xs5l.png);
+}
+.mini-charts .horizontal .line .bar {
+  left:0;
+  border-radius:8px 8px 8px 8px;
+  box-sizing: content-box;
+  transform: translateX(1px);
+  transform-origin: center bottom;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-name: activity1;
+}
+.mini-charts .horizontal .line .bar:hover {
+  animation-name: none;
+  transform: none;
+}
+.mini-charts .horizontal .line:nth-of-type(6n+2) .bar {
+  animation-delay: -.25s;
+}
+.mini-charts .horizontal .line:nth-of-type(6n+4) .bar {
+  animation-delay: -.5s;
+}
+.mini-charts .horizontal .line:nth-of-type(6n+3) .bar {
+  animation-delay: -.75s;
+}
+.mini-charts .horizontal  .line:nth-of-type(6n+6) .bar {
+  animation-delay: -1s;
+}
+.mini-charts .horizontal .line:nth-of-type(6n+5) .bar {
+  animation-delay: -1.25s;
+}
+@keyframes activity1 {
+  0%, 100% {
+    transform: translateX(1px);
+  }
+  50% {
+    transform: translateX(7px);
+  }
+}
+@media screen and (min-width: 1200px){
+.profile-content > .cc-2 .c-column .cc-2a.m30 {
+    right: 26%;
+    width: 26%;
+    margin-top: -197px;
+    padding-left: 5px;
+}
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*//*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Comfortaa Regular"), local("Comfortaa-Regular"),
+    url(https://fonts.gstatic.com/s/comfortaa/v10/-DackuIFgo7Hfy3rR14C3xJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Comfortaa Regular"), local("Comfortaa-Regular"),
+    url(https://fonts.gstatic.com/s/comfortaa/v10/qLBu5CQmSMt1H43OiWJ77VtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Comfortaa Bold"), local("Comfortaa-Bold"),
+    url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI5X5f-9o1vgP2EXwfjgl7AY.woff2) format("woff2");
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Comfortaa Bold"), local("Comfortaa-Bold"),
+    url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI-gdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+
+.ssa {
+  --ssa__border-radius: 8px;
+  --ssa__margin: 15px;
+  --ssah__color: #FFF;
+  --ssah__align-content: center;
+  --ssah__font-size: 40px;
+  --ssah__padding-vertical: 30px;
+  --ssah__padding-horizontal: 15px;
+  --ssah__text-align: center;
+  --ssah__text-shadow: 0 2px 8px rgba(0, 0, 0, .7);
+  --ssah__transition: 300ms;
+  --ssah_pseudo__icon-size: 40px;
+  --ssah_pseudo__icon-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+  --ssah_pseudo__icon-opacity: .7;
+  --ssap__background-color: rgba(0, 0, 0, .5);
+  --ssap__filter: 15px;
+  --ssap__scale: 1.5;
+  --ssac__color: #FFF;
+  --ssac__max-height: 200rem;
+  --font-family: "Comfortaa", sans-serif !important;
+  border-radius: var(--ssa__border-radius);
+  display: flex !important;
+  align-items: stretch;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: var(--ssa__margin) 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.ssap .b-poster {
+  position: unset;
+}
+.ssah {
+  color: var(--ssah__color);
+  cursor: var(--cursor-pointer), pointer;;
+  display: flex;
+  align-content: var(--ssah__align-content);
+  align-items: center;
+  flex-basis: 100%;
+  flex-flow: column wrap;
+  justify-content: center;
+  font-size: var(--ssah__font-size);
+  padding: var(--ssah__padding-vertical) var(--ssah__padding-horizontal);
+  text-align: var(--ssah__text-align);
+}
+.ssah:not(.active) {
+  text-shadow: var(--ssah__text-shadow);
+}
+.ssah:before, .ssah:after {
+  background: url("https://raw.githubusercontent.com/SCLIRT/Files/master/up.svg") no-repeat 50%;
+  background-size: var(--ssah_pseudo__icon-size);
+  content: '';
+  display: block;
+  height: var(--ssah_pseudo__icon-size);
+}
+.ssah:after {
+  margin-top: var(--ssa__margin);
+  width: var(--ssah_pseudo__icon-size);
+}
+.ssah:not(.active):after {
+  background-image: url("https://raw.githubusercontent.com/SCLIRT/Files/master/down.svg");
+  filter: drop-shadow(var(--ssah_pseudo__icon-shadow));
+  opacity: var(--ssah_pseudo__opacity);
+}
+.ssah:before {
+  padding: var(--ssah__padding-vertical) var(--ssah__padding-horizontal);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: opacity var(--ssah__transition);
+}
+.ssah:not(.active):before {
+  opacity: 0;
+  pointer-events: none;
+}
+.ssah.active:before {
+  transition-delay: calc( var(--ssah__transition) + var(--ssah__transition) + var(--ssah__transition) );
+}
+.ssap {
+  padding-top: calc(100%/16*4);
+  transition: padding-top calc( var(--ssah__transition) + var(--ssah__transition) );
+  width: 0;
+}
+.ar1x1  {padding-top: 100%;}
+.ar4x3  {padding-top: calc(100%/4*3);}
+.ar3x2  {padding-top: calc(100%/3*2);}
+.ar16x9 {padding-top: calc(100%/16*9);}
+.ssah.active ~ .ssap {padding-top: 0;}
+.ssap:after {
+  content: '';
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: background-color var(--ssah__transition);
+  z-index: -1;
+}
+
+.ssah.active ~ .ssap:after {
+  background-color: var(--ssap__background-color);
+}
+.ssap img {
+  min-height: calc(100% + var(--ssap__filter) * 3);
+  pointer-events: none;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transition: var(--ssah__transition), transform calc( var(--ssah__transition) + var(--ssah__transition) + var(--ssah__transition) ) cubic-bezier(.4, 0, .2, 1);
+  transform: translate(-50%, -50%) scale(1);
+  width: calc(100% + var(--ssap__filter) * 3);
+  max-width: none;
+  will-change: filter, transform;
+  z-index: -2;
+}
+.ssah.active ~ .ssap img {
+  filter: blur(var(--ssap__filter));
+  transform: translate(-50%, -10%) scale(var(--ssap__scale));
+}
+.ssac {
+  color: var(--ssac__color);
+  height: 100%;
+  max-height: var(--ssac__max-height);
+  padding: 0 var(--ssah__padding-horizontal);
+  transition: calc( var(--ssah__transition) + var(--ssah__transition) ) cubic-bezier(.4, 0, .2, 1), margin var(--ssah__transition);
+}
+.ssah:not(.active) ~ .ssac {
+  height: 0;
+  max-height: 0;
+  opacity: 0;
+  transition: var(--ssah__transition) cubic-bezier(.4, 0, .2, 1), margin var(--ssah__transition);
+}
+.ssah.active ~ .ssac {
+  font-family: var(--font-family) !important;
+  padding-bottom: calc( var(--ssah_pseudo__icon-size) + var(--ssah__padding-vertical) * 2 );
+}
+
+  
+
+
+
+@media only screen and (min-width : 1024px) {
+    .accordion {
+        width: 100%;
+        max-width: 850px;
+        height: 500px;
+        overflow: hidden;
+        margin: 50px auto;
+    }
+
+    .accordion .slider {
+        width: 100%;
+        display: table;
+        table-layout: fixed;
+        margin: 0;
+        padding: 0;
+    }
+
+    .accordion .slider .slide {
+        display: table-cell;
+        vertical-align: bottom;
+        position: relative;
+        width: 16.666%;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: all 500ms ease;
+    }
+
+    .accordion .slider .slide:nth-child(1) {
+        background-image: url('https://img1.akspic.ru/attachments/crops/0/0/8/4/6/164800/164800-art-illustracia-anime-peyzash-oblako-1920x1080.jpg');
+    }
+
+    .accordion .slider .slide:nth-child(2) {
+        background-image: url('https://oir.mobi/uploads/posts/2021-03/1616370468_50-p-peizazhi-iz-anime-59.jpg');
+    }
+
+    .accordion .slider .slide:nth-child(3) {
+        background-image: url('https://i.pinimg.com/originals/cd/b9/a5/cdb9a5113f8503843b4e130c369f6a61.jpg');
+    }
+
+    .accordion .slider .slide:nth-child(4) {
+        background-image: url('https://img2.akspic.ru/crops/9/0/1/9/6/169109/169109-anime_pejzazh-anime-pejzazhnaya_zhivopis-art-peyzash-1920x1080.jpg');
+    }
+  .accordion .slider .slide:nth-child(5) {
+        background-image: url('https://img5.goodfon.ru/original/1920x1080/4/a8/landscape-sea-sunset-clouds-sky-sun-coast-cliff-birds-painti.jpg');
+    }
+  .accordion .slider .slide:nth-child(6) {
+        background-image: url('https://desu.shikimori.one/system/user_images/original/74033/746863.jpg');
+    }
+  .accordion .slider .slide:nth-child(7) {
+        background-image: url('https://krot.info/uploads/posts/2021-02/1614140262_3-p-fon-v-vide-anime-3.jpg');
+    }
+
+    .accordion .slider:hover .slide {
+        width: 8%;
+    }
+
+    .accordion .slider:hover .slide:hover {
+        width: 150%;
+    }
+}
+
+
+
+.Ssylki-Characters {
+    display: inline-flex;
+    width: calc(100% / 7);
+    margin: -1.6% -0.5%;
+    padding: 0.7%;
+    overflow: hidden;
+    background-color: rgba(var(--block-color), 0.4);
+    background-image: url(https://i.gifer.com/origin/67/67996f0ac5884e5f8a24b6594746e058.gif);
+    background-size: contain;
+    pointer-events: all;
+    transform: rotate(360deg);
+    transition: 0s ease, transform 0.3s ease, background 0.3s ease;
+}
+div.Ssylki-Characters:hover {
+    transform: rotate(-360deg);
+    background-image: url(https://i.gifer.com/origin/67/67996f0ac5884e5f8a24b6594746e058.gif);
+}
+.Ssylki-Characters > strong > a[href*="/characters/118735-"]::before {
+  background: url("//moe.shikimori.one/system/images/original/113452.gif?1614961166") 50% / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/13468-"]::before {
+  background: url("//nyaa.shikimori.one/system/user_images/original/208335/1333585.jpg") 65% 67%/ 120%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/425-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/208335/1333603.jpg") 35% 0 / 120%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/124731-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/208335/1333618.jpg") 50% 30% / 150%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/496-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/274756/1085318.jpg") 37% 7% / 200%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/82523-"]::before {
+  background: url("//dere.shikimori.one/system/user_images/original/274756/1416779.jpg") 70% 10% / 175%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/24183-"]::before {
+  background: url("//dere.shikimori.one/system/user_images/original/208335/1333694.jpg") 10% 20% / 125%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/422-"]::before {
+  background: url("//moe.shikimori.one/system/user_images/original/208335/617752.jpg") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/601-"]::before {
+  background: url("//moe.shikimori.one/system/user_images/original/208335/1412917.jpg") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="characters/128909-"]::before {
+  background: url("//nyaa.shikimori.one/system/images/original/113450.gif?1614960582") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/459-"]::before {
+  background: url("//kawai.shikimori.one/system/user_images/original/208335/848196.jpg") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="characters/67065-"]::before {
+  background: url("//nyaa.shikimori.one/system/user_images/original/208335/617755.jpg") center 0 / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/112891-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/208335/1129938.jpg") 57% 10% / 550%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/8835-"]::before {
+  background: url("//moe.shikimori.one/system/user_images/original/208335/1335002.jpg") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/14809-"]::before {
+  background: url("//kawai.shikimori.one/system/user_images/original/208335/1333636.jpg") 48% 80% / 200%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/12295-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/208335/1334998.jpg") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/110429-"]::before {
+  background: url("//dere.shikimori.one/system/user_images/original/208335/1334999.jpg") 60% 0% / 136%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/117909-"]::before {
+  background: url("//kawai.shikimori.one/system/user_images/original/208335/1333896.jpg") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/53901-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/208335/1333768.jpg") center 10% / 150%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/3180-"]::before {
+  background: url("//nyaa.shikimori.one/system/images/original/113530.gif?1615266538") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/139-"]::before {
+  background: url("//nyaa.shikimori.one/system/user_images/original/208335/1333735.jpg") 65% 10% / 250%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/35252-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/208335/1333713.jpg") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/434-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/208335/799763.jpg") 53% 42%/ 500%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/673-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/208335/823708.jpg") 48% 8% / 200%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/40882-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/208335/1333783.jpg") center 0 / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/3149-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/208335/675823.jpg") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/80-light-"]::before {
+  background: url("//kawai.shikimori.one/system/images/original/113531.gif?1615267510") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/909-"]::before {
+  background: url("//desu.shikimori.one/system/user_images/original/208335/706858.jpg") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/13700-"]::before {
+  background: url("//nyaa.shikimori.one/system/user_images/original/208335/1333670.jpg") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="characters/118607-"]::before {
+  background: url("//kawai.shikimori.one/system/user_images/original/208335/675826.jpg") 40% 10% / 150%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/2257-"]::before {
+  background: url("//dere.shikimori.one/system/images/original/113424.gif?1614879543") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/2910-"]::before {
+  background: url("//dere.shikimori.one/system/user_images/original/208335/1129959.jpg") 0% 70% / 110%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/126340-"]::before {
+  background: url("//kawai.shikimori.one/system/user_images/original/208335/1333851.jpg") center / cover;
+}
+.Ssylki-Characters > strong > a[href*="/characters/157935-"]::before {
+  background: url("//kawai.shikimori.one/system/user_images/original/208335/1159911.jpg") 0 75% / 115%;
+}
+.Ssylki-Characters > strong > a[href*="/characters/31-hisoka-"]::before {
+  background: url("//dere.shikimori.one/system/user_images/original/208335/1334924.jpg") 65% 15% / 150%;
+} 
+
+
+
+
+  /*Карусель*/
+
+.carousel-v2_Anime_in_rl:after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: -125px;
+    font-size: 20px;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0px -5px 8px 2px rgb(0, 0, 0);
+}
+
+.carousel-v2_Anime_in_rl:after { content: 'Anime in real life'; }
+
+.carousel-v2_Anime_in_rl {
+position: relative;
+  width: 320px;
+  height: 300px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px;
+}
+
+.carousel-v2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform: rotateY(-360deg) translateZ(-412px);
+  animation: swirl 40s steps(10000, end) infinite;
+}
+
+.slide {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 300px;
+  height: 187px;
+}
+
+.slide img {
+  width: 280px;
+  height: 175px;
+  border: 3px inset rgba(66, 28, 1, 1);;
+  opacity: 0.6;
+  filter: grayscale(100%);
+  transition: all 300ms;
+  box-shadow: 0 0 10px 3px rgb(0, 0, 0);
+}
+.slide img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.slide.one {
+  transform: rotateY(0deg) translateZ(412px);
+}
+.slide.two {
+  transform: rotateY(40deg) translateZ(412px);
+}
+.slide.three {
+  transform: rotateY(80deg) translateZ(412px);
+}
+.slide.four {
+  transform: rotateY(120deg) translateZ(412px);
+}
+.slide.five {
+  transform: rotateY(160deg) translateZ(412px);
+}
+.slide.six {
+  transform: rotateY(200deg) translateZ(412px);
+}
+.slide.seven {
+  transform: rotateY(240deg) translateZ(412px);
+}
+.slide.eight {
+  transform: rotateY(280deg) translateZ(412px);
+}
+.slide.nine {
+  transform: rotateY(320deg) translateZ(412px);
+}
+
+@keyframes swirl {   
+  from {
+    transform: rotateY(-360deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+ /*Карусель-конец*/
+
+
+
+
+.Ssylki-anime strong {
+    padding-bottom: 60%;
+  border-radius: 0.4rem;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+ .Ssylki-anime > strong > a[href*="/animes/z34599-"]::before {
+  background-image: url("https://data.whicdn.com/images/298494742/original.gif");
+}
+.Ssylki-anime > strong > a[href*="/animes/889-"]::before {
+  background-image: url("https://i.pinimg.com/originals/87/68/c6/8768c660bc25ee903d1858828697418e.gif");
+}
+.Ssylki-anime > strong > a[href*="/animes/z37430-"]::before {
+  background-image: url("https://vignette.wikia.nocookie.net/topstrongest/images/4/4d/G2.gif/revision/latest?cb=20190301051940");
+}
+.Ssylki-anime > strong > a[href*="/animes/z38000-"]::before {
+  background-image: url("https://i.pinimg.com/originals/2f/61/06/2f61066984feb167940a07138005d250.gif");
+} 
+.Ssylki-anime > strong > a[href*="/animes/z11757-"]::before {
+  background-image: url("https://i.pinimg.com/originals/d7/11/8e/d7118efd5e8e3ee90e050377a1dc719d.gif");
+}
+.Ssylki-anime > strong > a[href*="/animes/22319-"]::before {
+  background-image: url("https://c.tenor.com/bXYfIY78NeYAAAAC/kaneki-ken-tokyo-ghoul.gif");
+}
+.Ssylki-anime > strong > a[href*="/animes/z31240-"]::before {
+  background-image: url("https://c.tenor.com/YBoreu_EK3AAAAAC/rem-re.gif");
+}
+.Ssylki-anime > strong > a[href*="/animes/33-"]::before {
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/920291580051993052/5B1B7FC05460914C5D3DE7B4A95DECDF507551E7/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+}
+/*jojo*/
+.Ssylki-anime > strong > a[href*="/animes/14719-"]::before {
+  background-image: url("https://qph.cf2.quoracdn.net/main-qimg-c4970d4949b8d0fa838a22a790c4cb4c");
+}
+/*kaisen*/
+.Ssylki-anime > strong > a[href*="/animes/40748-"]::before {
+  background-image: url("https://thumbs.gfycat.com/BoldLividDwarfmongoose-size_restricted.gif");
+}
+/*eva*/
+.Ssylki-anime > strong > a[href*="/animes/30-"]::before {
+  background-image: url("http://31.media.tumblr.com/8aad92d38e02d2e76b5cd07562204034/tumblr_mq1502TkFL1s5oxc0o1_1280.gif");
+}
+/*spy*/
+.Ssylki-anime > strong > a[href*="/animes/50265-"]::before {
+  background-image: url("https://media.tenor.com/R4EeoV4R-kUAAAAd/spy-x-family-loid-forger.gif");
+}
+/*golden boy*/
+.Ssylki-anime > strong > a[href*="/animes/268-"]::before {
+  background-image: url("https://64.media.tumblr.com/6504ebb502f59c381873a0a603eac4d1/tumblr_pk69chixPy1xxoebko1_540.gif");
+}
+
+
+
+.counter-01 {
+  text-align: center;
+}
+/* Карусель */
+.u2-carousel {
+  display: inline-flex;
+  position: relative;
+  transition: none;
+  text-align: start;
+  max-width: 765px;
+  width: calc(100% / 3);
+  border-radius: 0.4rem;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+/* Изображения */
+.u2-carousel .u-carousel_images {
+  position: relative;
+  padding: 74% 0;
+  margin: 1px;
+  width: 100%;
+  height: 1px;
+  overflow: hidden;
+  user-select: none;
+  border-radius: 0.4rem;
+  border: 2px solid rgba(var(--block-color), 0.3);
+  box-shadow: 0 2px 8px #00000033;
+  filter: brightness(0.95);
+}
+.u2-carousel .b-image img {
+  display: none;
+}
+.u2-carousel .b-image {
+  background-repeat: no-repeat !important;
+}
+.u2-carousel .u-carousel_images > div > .b-image,
+.u2-carousel .u-carousel_images > div > .b-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  transform: translateX(-100%);
+  transition: none;
+}
+.u2-carousel .u-carousel_images > div > .b-image,
+.u2-carousel .u-carousel_images > div > .b-poster {
+  transform: translate(12px, 50%);
+  opacity: 0;
+}
+.u2-carousel .u-carousel_images > .active > .b-image,
+.u2-carousel .u-carousel_images > .active > .b-poster {
+  transform: translateX(0);
+  opacity: 1;
+}
+.u2-carousel .u-carousel_images > .active ~ div > .b-image,
+.u2-carousel .u-carousel_images > .active ~ div > .b-poster {
+  transform: translateX(100%);
+}
+.u2-carousel.animated .u-carousel_images div > .b-image,
+.u2-carousel.animated .u-carousel_images div > .b-poster {
+  transition: 0s linear, opacity 0.5s, transform 0.7s linear;
+  will-change: transform;
+}
+/* Переключатели */
+.u2-carousel .u-carousel_images > div::before,
+.u2-carousel .u-carousel_images > div::after {
+  content: "";
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4.25rem;
+  font-size: 32px;
+  opacity: 1;
+  z-index: 1;
+  cursor: var(--cursor-pointer), pointer;
+}
+.u2-carousel .u-carousel_images .b-image:hover img {
+  opacity: 1;
+}
+.u2-carousel .u-carousel_images > div::after {
+  right: 0;
+}
+.u2-carousel .u-carousel_images > div:not(.active):first-child::after,
+.u2-carousel .u-carousel_images > .active + div::after,
+.u2-carousel .u-carousel_images > div::before,
+.u2-carousel .u-carousel_images > .active:first-child ~ div:last-child::before {
+  display: flex;
+}
+.u2-carousel .u-carousel_images > br,
+.u2-carousel .u-carousel_images > div > br,
+.u2-carousel .u-carousel_images .b-image .marker,
+.u2-carousel .u-carousel_images > .active::before,
+.u2-carousel .u-carousel_images > .active ~ div::before {
+  display: none;
+}
+/* Псевдо-переключатели */
+.u2-carousel .u-carousel_images::before,
+.u2-carousel .u-carousel_images::after {
+  content: "◅";
+  font-family: "shikimori";
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  top: 0;
+  bottom: 0;
+  width: 4.0625rem;
+  padding: 1.25rem;
+  font-size: 3.25em;
+  background: linear-gradient(90deg, #0000004d, #00000000);
+  color: #1c1c1cf2;
+  opacity: 0;
+  transition: 0s ease-in-out, opacity 0.18s;
+  pointer-events: none;
+  z-index: 1;
+  font-weight: bold;
+}
+.u2-carousel .u-carousel_images::after {
+  content: "▻";
+  justify-content: flex-end;
+  right: 0;
+  background: linear-gradient(270deg, #0000004d, #00000000);
+}
+.u2-carousel .u-carousel_images:hover::before,
+.u2-carousel .u-carousel_images:hover::after {
+  opacity: 1;
+}
+/* Счётчик */
+.u2-carousel.counter {
+  counter-reset: carousel carousel-current;
+}
+.u2-carousel.counter .u-carousel_images > div {
+  counter-increment: carousel carousel-current;
+}
+.u2-carousel.counter .u-carousel_images > .active ~ div {
+  counter-increment: carousel carousel-current 0;
+}
+.u2-carousel.counter::after {
+  content: counter(carousel-current) " из " counter(carousel);
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2em;
+  padding: 0.36em 1em;
+  background-color: #00000066;
+  border-radius: 5px;
+  color: #eee;
+  backface-visibility: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+@media screen and (max-width: 1000px) {
+  .u2-carousel {
+    width: calc(100% / 2);
+  }
+}
+@media screen and (max-width: 600px) {
+  .u2-carousel {
+    width: calc(100% / 1);
+  }
+}
+.u2-carousel .active > .b-image:after,
+.u2-carousel .active > .b-poster:after {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1rem 0.58rem;
+  line-height: 1;
+  font-size: 1.35em;
+  color: #f0f8ff;
+  pointer-events: none;
+  text-shadow: 1px 0 2px #000000bf, -1px 0 2px #000000bf, 0 1px 2px #000000bf, 0 -1px 2px #000000bf, 1px 0 2px #000000bf, -1px 0 2px #000000bf, 0 1px 2px #000000bf, 0 -1px 2px #000000bf;
+}
+@media screen and (max-width: 300px) {
+  .u2-carousel .active > .b-image:after,
+  .u2-carousel .active > .b-poster:after {
+    display: none;
+  }
+  .u2-carousel .u-carousel_images {
+    padding: 60% 0;
+  }
+}
+
+/*1-Ряд*/
+.u2-carousel:nth-child(1) .u-carousel_images > div:nth-child(1) > .b-image,
+.u2-carousel:nth-child(1) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("https://moe.shikimori.one/system/user_images/original/755522/1874272.jpg") center / cover;
+}
+/*1-Ряд*/
+.u2-carousel:nth-child(1) .u-carousel_images > div:nth-child(2) > .b-image,
+.u2-carousel:nth-child(1) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://moe.shikimori.one/system/user_images/original/1088479/2030027.jpg") center / cover;
+}
+/*1-Ряд*/
+.u2-carousel:nth-child(1) .u-carousel_images > div:nth-child(3) > .b-image,
+.u2-carousel:nth-child(1) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://u.livelib.ru/character/1000005086/o/vx5v4gkh/o-o.jpeg") center / cover;
+}
+/*2-Ряд*/
+.u2-carousel:nth-child(2) .u-carousel_images > div:nth-child(3) > .b-image,
+.u2-carousel:nth-child(2) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://64.media.tumblr.com/6d7da46f59c66f8fb570556449af58fe/b2d9d198b35e33a1-14/s1280x1920/5a11adb73731cf1f00e7a1eac55208affab30154.jpg") center  / cover;
+}
+/*2-Ряд*/
+.u2-carousel:nth-child(2) .u-carousel_images > div:nth-child(2) > .b-image,
+.u2-carousel:nth-child(2) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://steamuserimages-a.akamaihd.net/ugc/106231921936412217/6883A50DADE084CA6D0FB39E8B4A9F48E0B64EB2/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false") center / cover;
+}
+/*2-Ряд*/
+.u2-carousel:nth-child(2) .u-carousel_images > div:nth-child(1) > .b-image,
+.u2-carousel:nth-child(2) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("https://cdna.artstation.com/p/assets/images/images/001/000/184/medium/will-rascoe-touka-web.jpg?1437931006") center / cover;
+}
+/*3-Ряд*/
+.u2-carousel:nth-child(3) .u-carousel_images > div:nth-child(1) > .b-image,
+.u2-carousel:nth-child(3) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("https://kawai.shikimori.one/system/user_images/original/1039951/1837786.jpg") center / cover;
+}
+/*3-Ряд*/
+.u2-carousel:nth-child(3) .u-carousel_images > div:nth-child(2) > .b-image,
+.u2-carousel:nth-child(3) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://i.pinimg.com/564x/16/85/21/16852123b9ff782509351d8f53c0b8ca.jpg") 15% center / cover;
+}
+/*3-Ряд*/
+.u2-carousel:nth-child(3) .u-carousel_images > div:nth-child(3) > .b-image,
+.u2-carousel:nth-child(3) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://i.pinimg.com/originals/92/7c/d2/927cd2fc55b503d716ff6f238f1b99c4.jpg") 58% 50% / cover;
+}
+/*4-Ряд*/
+.u2-carousel:nth-child(4) .u-carousel_images > div:nth-child(2) > .b-image,
+.u2-carousel:nth-child(4) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://shikimori.one/system/user_images/original/208335/1281070.jpg") 71% 50% / cover;
+}
+/*4-Ряд*/
+.u2-carousel:nth-child(4) .u-carousel_images > div:nth-child(1) > .b-image,
+.u2-carousel:nth-child(4) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("https://i.pinimg.com/564x/18/92/88/18928882def5f5bb14179367e92d39b9.jpg") center / cover;
+}
+/*4-Ряд*/
+.u2-carousel:nth-child(4) .u-carousel_images > div:nth-child(3) > .b-image,
+.u2-carousel:nth-child(4) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://i.pinimg.com/564x/b4/64/fc/b464fc08b56d96131937dff5aa9dcf91.jpg")  53%  / cover;
+}
+/*5-Ряд*/
+.u2-carousel:nth-child(5) .u-carousel_images > div:nth-child(3) > .b-image,
+.u2-carousel:nth-child(5) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://dere.shikimori.one/system/user_images/original/771650/1726899.jpg") center / cover;
+}
+/*5-Ряд*/
+.u2-carousel:nth-child(5) .u-carousel_images > div:nth-child(2) > .b-image,
+.u2-carousel:nth-child(5) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://dere.shikimori.one/system/user_images/original/5779/1548509.jpg") 0% / cover;
+}
+/*5-Ряд*/
+.u2-carousel:nth-child(5) .u-carousel_images > div:nth-child(1) > .b-image,
+.u2-carousel:nth-child(5) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("https://kawai.shikimori.one/system/user_images/original/309348/1600366.jpg") center / cover;
+}
+/*6-Ряд*/
+.u2-carousel:nth-child(6) .u-carousel_images > div:nth-child(1) > .b-image,
+.u2-carousel:nth-child(6) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("https://desu.shikimori.one/system/user_images/original/437889/1622283.jpg") center / cover;
+}
+/*6-Ряд*/
+.u2-carousel:nth-child(6) .u-carousel_images > div:nth-child(2) > .b-image,
+.u2-carousel:nth-child(6) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://desu.shikimori.one/system/user_images/original/5779/928108.jpg") center / cover;
+}
+/*6-Ряд*/
+.u2-carousel:nth-child(6) .u-carousel_images > div:nth-child(3) > .b-image,
+.u2-carousel:nth-child(6) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://i.pinimg.com/564x/53/e8/8d/53e88dfc2c73496024a8ee94471b28e2.jpg") center / cover;
+}
+/*7-Ряд*/
+.u2-carousel:nth-child(1) .u-carousel_images > div:nth-child(4) > .b-image,
+.u2-carousel:nth-child(1) .u-carousel_images > .active:nth-child(4) > .b-image {
+  background: url("https://desu.shikimori.one/system/user_images/original/322913/631803.jpg") center / cover;
+}
+/*7-Ряд*/
+.u2-carousel:nth-child(2) .u-carousel_images > div:nth-child(4) > .b-image,
+.u2-carousel:nth-child(2) .u-carousel_images > .active:nth-child(4) > .b-image {
+  background: url("https://kawai.shikimori.one/system/user_images/original/1039951/1837816.jpg") center / cover;
+}
+/*7-Ряд*/
+.u2-carousel:nth-child(3) .u-carousel_images > div:nth-child(4) > .b-image,
+.u2-carousel:nth-child(3) .u-carousel_images > .active:nth-child(4) > .b-image {
+  background: url("https://kawai.shikimori.one/system/user_images/original/249373/1232076.jpg") center / cover;
+}
+/*7-Ряд*/
+.u2-carousel:nth-child(4) .u-carousel_images > div:nth-child(4) > .b-image,
+.u2-carousel:nth-child(4) .u-carousel_images > .active:nth-child(4) > .b-image {
+  background: url("https://preview.redd.it/06phrhehi9171.jpg?auto=webp&s=d007f986cb020faf53956a3d79dd727b369a5ee4") center / cover;
+}
+/*7-Ряд*/
+.u2-carousel:nth-child(5) .u-carousel_images > div:nth-child(4) > .b-image,
+.u2-carousel:nth-child(5) .u-carousel_images > .active:nth-child(4) > .b-image {
+  background: url("https://dere.shikimori.one/system/user_images/original/249373/1863419.jpg") center / cover;
+}
+/*7-Ряд*/
+.u2-carousel:nth-child(6) .u-carousel_images > div:nth-child(4) > .b-image,
+.u2-carousel:nth-child(6) .u-carousel_images > .active:nth-child(4) > .b-image {
+  background: url("https://cdna.artstation.com/p/assets/images/images/012/381/976/large/bara-art-.jpg?1534502770") center / cover;
+}
+/*7-Ряд*/
+.u2-carousel:nth-child(1) .u-carousel_images > div:nth-child(5) > .b-image,
+.u2-carousel:nth-child(1) .u-carousel_images > .active:nth-child(5) > .b-image {
+  background: url("https://moe.shikimori.one/system/user_images/original/1088479/2030042.jpg") center / cover;
+}
+/*7-Ряд*/
+.u2-carousel:nth-child(2) .u-carousel_images > div:nth-child(5) > .b-image,
+.u2-carousel:nth-child(2) .u-carousel_images > .active:nth-child(5) > .b-image {
+  background: url("https://dere.shikimori.one/system/user_images/original/977242/1872124.jpg") center / cover;
+}
+/*7-Ряд*/
+.u2-carousel:nth-child(3) .u-carousel_images > div:nth-child(5) > .b-image,
+.u2-carousel:nth-child(3) .u-carousel_images > .active:nth-child(5) > .b-image {
+  background: url("https://dere.shikimori.one/system/user_images/original/5779/1571279.jpg") center / cover;
+}
+.u2-carousel:nth-child(4) .u-carousel_images > div:nth-child(5) > .b-image,
+.u2-carousel:nth-child(4) .u-carousel_images > .active:nth-child(5) > .b-image {
+  background: url("https://nyaa.shikimori.one/system/user_images/original/1088479/1960735.jpg") center / cover;
+}
+.u2-carousel:nth-child(5) .u-carousel_images > div:nth-child(5) > .b-image,
+.u2-carousel:nth-child(5) .u-carousel_images > .active:nth-child(5) > .b-image {
+  background: url("https://dere.shikimori.one/system/user_images/original/1088479/1994354.jpg") center / cover;
+}
+.u2-carousel:nth-child(6) .u-carousel_images > div:nth-child(5) > .b-image,
+.u2-carousel:nth-child(6) .u-carousel_images > .active:nth-child(5) > .b-image {
+  background: url("https://desu.shikimori.one/system/user_images/original/1088479/1994353.jpg") center / cover;
+}
+.u2-carousel:nth-child(1) .u-carousel_images > div:nth-child(6) > .b-image,
+.u2-carousel:nth-child(1) .u-carousel_images > .active:nth-child(6) > .b-image {
+  background: url("https://dere.shikimori.one/system/user_images/original/300369/1060289.jpg") center / cover;
+}
+.u2-carousel:nth-child(2) .u-carousel_images > div:nth-child(6) > .b-image,
+.u2-carousel:nth-child(2) .u-carousel_images > .active:nth-child(6) > .b-image {
+  background: url("https://64.media.tumblr.com/92594389eb12ce54706328e12527d74c/09da8f8c584be975-68/s1280x1920/4cde5c098e316a612805a3037eae5f06f8c10f25.jpg") center / cover;
+}
+.u2-carousel:nth-child(3) .u-carousel_images > div:nth-child(6) > .b-image,
+.u2-carousel:nth-child(3) .u-carousel_images > .active:nth-child(6) > .b-image {
+  background: url("https://i.pinimg.com/736x/0e/35/75/0e35752efed21193f66530688aa14eed.jpg") center / cover;
+}
+.u2-carousel:nth-child(4) .u-carousel_images > div:nth-child(6) > .b-image,
+.u2-carousel:nth-child(4) .u-carousel_images > .active:nth-child(6) > .b-image {
+  background: url("https://i.pinimg.com/736x/3d/cc/6e/3dcc6e7fddaf20d52b33c2d6a28778f1.jpg") center / cover;
+}
+.u2-carousel:nth-child(5) .u-carousel_images > div:nth-child(6) > .b-image,
+.u2-carousel:nth-child(5) .u-carousel_images > .active:nth-child(6) > .b-image {
+  background: url("https://dere.shikimori.one/system/user_images/original/797375/1651139.jpg") center / cover;
+}
+.u2-carousel:nth-child(6) .u-carousel_images > div:nth-child(6) > .b-image,
+.u2-carousel:nth-child(6) .u-carousel_images > .active:nth-child(6) > .b-image {
+  background: url("https://i.pinimg.com/564x/7a/19/92/7a1992bb0a473ec804b126dfb6ecd822.jpg") center / cover;
+}
+.u2-carousel:nth-child(1) .u-carousel_images > div:nth-child(7) > .b-image,
+.u2-carousel:nth-child(1) .u-carousel_images > .active:nth-child(7) > .b-image {
+  background: url("https://dere.shikimori.one/system/user_images/original/543242/1076584.jpg") center / cover;
+}
+
+.u2-carousel .active > .b-image::before {
+  content: "";
+  z-index: 999;
+  position: absolute;
+  top: 8px;
+  left: -0.1rem;
+  padding: 8px 8px;
+  background: var(--color-primary, #6e1515);
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.7);
+  color: var(--color-text-on-primary, #f5f8ff);
+  font-size: 13px;
+  line-height: 10px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.u2-carousel:nth-child(1) .active:nth-child(1) > .b-image:after {
+  content: "Mai Sakurajima";
+}
+.u2-carousel:nth-child(1) .active:nth-child(2) > .b-image:after {
+  content: "Power";
+}
+.u2-carousel:nth-child(1) .active:nth-child(3) > .b-image:after {
+  content: "Reimi Sugimoto";
+}
+.u2-carousel:nth-child(2) .active:nth-child(3) > .b-image:after {
+  content: "Mikasa Ackerman";
+}
+.u2-carousel:nth-child(2) .active:nth-child(2) > .b-image:after {
+  content: "Revi";
+}
+.u2-carousel:nth-child(2) .active:nth-child(1) > .b-image:after {
+  content: "Touka Kirishima";
+}
+.u2-carousel:nth-child(3) .active:nth-child(1) > .b-image:after {
+  content: "Fubuki";
+}
+.u2-carousel:nth-child(3) .active:nth-child(2) > .b-image:after {
+  content: "Nezuko Kamado";
+}
+.u2-carousel:nth-child(3) .active:nth-child(3) > .b-image:after {
+  content: "Shuna";
+}
+.u2-carousel:nth-child(4) .active:nth-child(2) > .b-image:after {
+  content: "Ram & Rem";
+}
+.u2-carousel:nth-child(4) .active:nth-child(1) > .b-image:after {
+  content: "Mitsuha Miyamizu";
+}
+.u2-carousel:nth-child(4) .active:nth-child(3) > .b-image:after {
+  content: "Mio";
+}
+.u2-carousel:nth-child(5) .active:nth-child(3) > .b-image:after {
+  content: "Eris";
+}
+.u2-carousel:nth-child(5) .active:nth-child(2) > .b-image:after {
+  content: "Sylphiette";
+}
+.u2-carousel:nth-child(5) .active:nth-child(1) > .b-image:after {
+  content: "Roxy";
+}
+.u2-carousel:nth-child(6) .active:nth-child(1) > .b-image:after {
+  content: "Hina";
+}
+.u2-carousel:nth-child(6) .active:nth-child(2) > .b-image:after {
+  content: "Mitsuri Kanroji";
+}
+.u2-carousel:nth-child(6) .active:nth-child(3) > .b-image:after {
+  content: "Rui";
+}
+.u2-carousel:nth-child(1) .active:nth-child(4) > .b-image:after {
+  content: "Beatrice";
+}
+.u2-carousel:nth-child(2) .active:nth-child(4) > .b-image:after {
+  content: "Tatsumaki";
+}
+.u2-carousel:nth-child(3) .active:nth-child(4) > .b-image:after {
+  content: "Frederica";
+}
+.u2-carousel:nth-child(4) .active:nth-child(4) > .b-image:after {
+  content: "Sasha Blouse";
+}
+.u2-carousel:nth-child(5) .active:nth-child(4) > .b-image:after {
+  content: "Emilia";
+}
+.u2-carousel:nth-child(6) .active:nth-child(4) > .b-image:after {
+  content: "Shalltear";
+}
+.u2-carousel:nth-child(1) .active:nth-child(5) > .b-image:after {
+  content: "Shizue";
+}
+.u2-carousel:nth-child(2) .active:nth-child(5) > .b-image:after {
+  content: "Prushka";
+}
+.u2-carousel:nth-child(3) .active:nth-child(5) > .b-image:after {
+  content: "Asuna";
+}
+.u2-carousel:nth-child(4) .active:nth-child(5) > .b-image:after {
+  content: "Ayanami Rei";
+}
+.u2-carousel:nth-child(5) .active:nth-child(5) > .b-image:after {
+  content: "Asuka Langley";
+}
+.u2-carousel:nth-child(6) .active:nth-child(5) > .b-image:after {
+  content: "Misato Katsuragi";
+}
+.u2-carousel:nth-child(1) .active:nth-child(6) > .b-image:after {
+  content: "Shouko Nishimiya";
+}
+.u2-carousel:nth-child(2) .active:nth-child(6) > .b-image:after {
+  content: "Yor Forger";
+}
+.u2-carousel:nth-child(3) .active:nth-child(6) > .b-image:after {
+  content: "Violet Evergarden";
+}
+.u2-carousel:nth-child(4) .active:nth-child(6) > .b-image:after {
+  content: "Akame";
+}
+.u2-carousel:nth-child(5) .active:nth-child(6) > .b-image:after {
+  content: "Maki Zenin";
+}
+.u2-carousel:nth-child(6) .active:nth-child(6) > .b-image:after {
+  content: "Nobara Kugisaki";
+}
+.u2-carousel:nth-child(1) .active:nth-child(7) > .b-image:after {
+  content: "Trish Una";
+}
+
+
+
+
+
+
+
+.counter-01 {
+  text-align: center;
+}
+/* Карусель */
+.u3-carousel {
+  display: inline-flex;
+  position: relative;
+  transition: none;
+  text-align: start;
+  max-width: 765px;
+  width: calc(100% / 3);
+  border-radius: 0.4rem;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+/* Изображения */
+.u3-carousel .u-carousel_images {
+  position: relative;
+  padding: 74% 0;
+  margin: 1px;
+  width: 100%;
+  height: 1px;
+  overflow: hidden;
+  user-select: none;
+border-radius: 0.4rem;
+  border: 2px solid rgba(var(--block-color), 0.3);
+  box-shadow: 0 2px 8px #00000033;
+  filter: brightness(0.95);
+}
+.u3-carousel .b-image img {
+  display: none;
+}
+.u3-carousel .b-image {
+  background-repeat: no-repeat !important;
+}
+.u3-carousel .u-carousel_images > div > .b-image,
+.u3-carousel .u-carousel_images > div > .b-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  transform: translateX(-100%);
+  transition: none;
+}
+.u3-carousel .u-carousel_images > div > .b-image,
+.u3-carousel .u-carousel_images > div > .b-poster {
+  transform: translate(12px, 50%);
+  opacity: 0;
+}
+.u3-carousel .u-carousel_images > .active > .b-image,
+.u3-carousel .u-carousel_images > .active > .b-poster {
+  transform: translateX(0);
+  opacity: 1;
+}
+.u3-carousel .u-carousel_images > .active ~ div > .b-image,
+.u3-carousel .u-carousel_images > .active ~ div > .b-poster {
+  transform: translateX(100%);
+}
+.u3-carousel.animated .u-carousel_images div > .b-image,
+.u3-carousel.animated .u-carousel_images div > .b-poster {
+  transition: 0s linear, opacity 0.5s, transform 0.7s linear;
+  will-change: transform;
+}
+/* Переключатели */
+.u3-carousel .u-carousel_images > div::before,
+.u3-carousel .u-carousel_images > div::after {
+  content: "";
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4.25rem;
+  font-size: 32px;
+  opacity: 1;
+  z-index: 1;
+  cursor: var(--cursor-pointer), pointer;
+}
+.u3-carousel .u-carousel_images .b-image:hover img {
+  opacity: 1;
+}
+.u3-carousel .u-carousel_images > div::after {
+  right: 0;
+}
+.u3-carousel .u-carousel_images > div:not(.active):first-child::after,
+.u3-carousel .u-carousel_images > .active + div::after,
+.u3-carousel .u-carousel_images > div::before,
+.u3-carousel .u-carousel_images > .active:first-child ~ div:last-child::before {
+  display: flex;
+}
+.u3-carousel .u-carousel_images > br,
+.u3-carousel .u-carousel_images > div > br,
+.u3-carousel .u-carousel_images .b-image .marker,
+.u3-carousel .u-carousel_images > .active::before,
+.u3-carousel .u-carousel_images > .active ~ div::before {
+  display: none;
+}
+/* Псевдо-переключатели */
+.u3-carousel .u-carousel_images::before,
+.u3-carousel .u-carousel_images::after {
+  content: "◅";
+  font-family: "shikimori";
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  top: 0;
+  bottom: 0;
+  width: 4.0625rem;
+  padding: 1.25rem;
+  font-size: 3.25em;
+  background: linear-gradient(90deg, #0000004d, #00000000);
+  color: #1c1c1cf2;
+  opacity: 0;
+  transition: 0s ease-in-out, opacity 0.18s;
+  pointer-events: none;
+  z-index: 1;
+  font-weight: bold;
+}
+.u3-carousel .u-carousel_images::after {
+  content: "▻";
+  justify-content: flex-end;
+  right: 0;
+  background: linear-gradient(270deg, #0000004d, #00000000);
+}
+.u3-carousel .u-carousel_images:hover::before,
+.u3-carousel .u-carousel_images:hover::after {
+  opacity: 1;
+}
+/* Счётчик */
+.u3-carousel.counter {
+  counter-reset: carousel carousel-current;
+}
+.u3-carousel.counter .u-carousel_images > div {
+  counter-increment: carousel carousel-current;
+}
+.u3-carousel.counter .u-carousel_images > .active ~ div {
+  counter-increment: carousel carousel-current 0;
+}
+.u3-carousel.counter::after {
+  content: counter(carousel-current) " из " counter(carousel);
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2em;
+  padding: 0.36em 1em;
+  background-color: #00000066;
+  border-radius: 5px;
+  color: #eee;
+  backface-visibility: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+@media screen and (max-width: 1000px) {
+  .u3-carousel {
+    width: calc(100% / 2);
+  }
+}
+@media screen and (max-width: 600px) {
+  .u3-carousel {
+    width: calc(100% / 1);
+  }
+}
+.u3-carousel .active > .b-image:after,
+.u3-carousel .active > .b-poster:after {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1rem 0.58rem;
+  line-height: 1;
+  font-size: 1.35em;
+  color: #f0f8ff;
+  pointer-events: none;
+  text-shadow: 1px 0 2px #000000bf, -1px 0 2px #000000bf, 0 1px 2px #000000bf, 0 -1px 2px #000000bf, 1px 0 2px #000000bf, -1px 0 2px #000000bf, 0 1px 2px #000000bf, 0 -1px 2px #000000bf;
+}
+@media screen and (max-width: 300px) {
+  .u3-carousel .active > .b-image:after,
+  .u3-carousel .active > .b-poster:after {
+    display: none;
+  }
+  .u3-carousel .u-carousel_images {
+    padding: 60% 0;
+  }
+}
+
+/*1-Ряд*/
+.u3-carousel:nth-child(1) .u-carousel_images > div:nth-child(1) > .b-image,
+.u3-carousel:nth-child(1) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("https://i.redd.it/m40c5k078fn81.jpg") center / cover;
+}
+/*1-Ряд*/
+.u3-carousel:nth-child(1) .u-carousel_images > div:nth-child(2) > .b-image,
+.u3-carousel:nth-child(1) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://desu.shikimori.one/system/user_images/original/669760/1759563.jpg") center / cover;
+}
+/*1-Ряд*/
+.u3-carousel:nth-child(1) .u-carousel_images > div:nth-child(3) > .b-image,
+.u3-carousel:nth-child(1) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://i.pinimg.com/originals/d3/a7/d4/d3a7d4c13045c95e5c4c849b21998f22.jpg") center / cover;
+}
+/*1-Ряд*/
+.u3-carousel:nth-child(1) .u-carousel_images > div:nth-child(4) > .b-image,
+.u3-carousel:nth-child(1) .u-carousel_images > .active:nth-child(4) > .b-image {
+  background: url("https://i.redd.it/g6d8jpufhpi51.png") center / cover;
+}
+/*2-Ряд*/
+.u3-carousel:nth-child(2) .u-carousel_images > div:nth-child(4) > .b-image,
+.u3-carousel:nth-child(2) .u-carousel_images > .active:nth-child(4) > .b-image {
+  background: url("https://images7.alphacoders.com/841/841405.jpg") center  / cover;
+}
+/*2-Ряд*/
+.u3-carousel:nth-child(2) .u-carousel_images > div:nth-child(2) > .b-image,
+.u3-carousel:nth-child(2) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://i.kym-cdn.com/photos/images/original/001/669/146/9bb.png") center / cover;
+}
+/*2-Ряд*/
+.u3-carousel:nth-child(2) .u-carousel_images > div:nth-child(3) > .b-image,
+.u3-carousel:nth-child(2) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://cdn.donmai.us/original/4d/f6/4df676643bd334ff804698c7c5a87bc9.png") center / cover;
+}
+/*3-Ряд*/
+.u3-carousel:nth-child(5) .u-carousel_images > div:nth-child(2) > .b-image,
+.u3-carousel:nth-child(5) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://dere.shikimori.one/system/user_images/original/249373/1396134.jpg") center / cover;
+}
+/*3-Ряд*/
+.u3-carousel:nth-child(3) .u-carousel_images > div:nth-child(2) > .b-image,
+.u3-carousel:nth-child(3) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://i.pinimg.com/originals/c2/f7/ea/c2f7eacace9ac5b409566f0b6cc54366.jpg") 15% center / cover;
+}
+/*3-Ряд*/
+.u3-carousel:nth-child(3) .u-carousel_images > div:nth-child(3) > .b-image,
+.u3-carousel:nth-child(3) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://i.pinimg.com/736x/c7/55/96/c7559690e8e707a897b4f8ab09e17bae.jpg") 58% 50% / cover;
+}
+/*4-Ряд*/
+.u3-carousel:nth-child(4) .u-carousel_images > div:nth-child(2) > .b-image,
+.u3-carousel:nth-child(4) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://static.wikia.nocookie.net/legendsofthemultiuniverse/images/3/3f/JonathanP2.png/revision/latest/scale-to-width-down/398?cb=20170416101533") 35% / cover;
+}
+/*4-Ряд*/
+.u3-carousel:nth-child(4) .u-carousel_images > div:nth-child(1) > .b-image,
+.u3-carousel:nth-child(4) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("http://g.top4top.io/p_20550e2jd5.jpg") center / cover;
+}
+/*4-Ряд*/
+.u3-carousel:nth-child(4) .u-carousel_images > div:nth-child(3) > .b-image,
+.u3-carousel:nth-child(4) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://i.pinimg.com/564x/3e/9f/5a/3e9f5a0381024fcba16ee3454c295b0b.jpg")  53%  / cover;
+}
+/*5-Ряд*/
+.u3-carousel:nth-child(5) .u-carousel_images > div:nth-child(4) > .b-image,
+.u3-carousel:nth-child(5) .u-carousel_images > .active:nth-child(4) > .b-image {
+  background: url("https://i.pinimg.com/564x/9f/07/21/9f0721cedd6df8699655a2dc20def495.jpg") center / cover;
+}
+/*5-Ряд*/
+.u3-carousel:nth-child(5) .u-carousel_images > div:nth-child(1) > .b-image,
+.u3-carousel:nth-child(5) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("https://desu.shikimori.one/system/user_images/original/437889/1739288.jpg") 0% / cover;
+}
+/*5-Ряд*/
+.u3-carousel:nth-child(5) .u-carousel_images > div:nth-child(3) > .b-image,
+.u3-carousel:nth-child(5) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://i.pinimg.com/564x/7e/74/36/7e74363e23a2a7eef2bc636b8d5a157b.jpg") center / cover;
+}
+/*6-Ряд*/
+.u3-carousel:nth-child(6) .u-carousel_images > div:nth-child(2) > .b-image,
+.u3-carousel:nth-child(6) .u-carousel_images > .active:nth-child(2) > .b-image {
+  background: url("https://preview.redd.it/t4e94but6ui61.jpg?width=640&crop=smart&auto=webp&s=f076c18a39ec8f54b81e2ebec20c4f6088c4200f") center / cover;
+}
+/*6-Ряд*/
+.u3-carousel:nth-child(6) .u-carousel_images > div:nth-child(1) > .b-image,
+.u3-carousel:nth-child(6) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("https://i.pinimg.com/564x/44/b0/43/44b0433e2c518ec131565541eb352d02.jpg") center / cover;
+}
+/*6-Ряд*/
+.u3-carousel:nth-child(6) .u-carousel_images > div:nth-child(3) > .b-image,
+.u3-carousel:nth-child(6) .u-carousel_images > .active:nth-child(3) > .b-image {
+  background: url("https://nyaa.shikimori.one/system/user_images/original/1088479/1930585.jpg") center / cover;
+}
+.u3-carousel:nth-child(2) .u-carousel_images > div:nth-child(1) > .b-image,
+.u3-carousel:nth-child(2) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("https://i.pinimg.com/736x/e8/6d/8f/e86d8fd3c48465bb246d3afca8c5d7a6.jpg") center / cover;
+}
+.u3-carousel:nth-child(3) .u-carousel_images > div:nth-child(4) > .b-image,
+.u3-carousel:nth-child(3) .u-carousel_images > .active:nth-child(4) > .b-image {
+  background: url("https://i.pinimg.com/550x/b6/9e/f6/b69ef6e8c2b0291d80d91be69cc5e3f6.jpg") center / cover;
+}
+.u3-carousel:nth-child(4) .u-carousel_images > div:nth-child(4) > .b-image,
+.u3-carousel:nth-child(4) .u-carousel_images > .active:nth-child(4) > .b-image {
+  background: url("https://i.pinimg.com/736x/c9/9c/55/c99c553e7ba47928e6997a7b99b696d4.jpg") center / cover;
+}
+.u3-carousel:nth-child(3) .u-carousel_images > div:nth-child(1) > .b-image,
+.u3-carousel:nth-child(3) .u-carousel_images > .active:nth-child(1) > .b-image {
+  background: url("https://i.pinimg.com/736x/9a/92/b4/9a92b422f7b73c885716f87bf3bbbac9.jpg") center / cover;
+}
+
+
+.u3-carousel .active > .b-image::before {
+  content: "";
+  z-index: 999;
+  position: absolute;
+  top: 8px;
+  left: -0.1rem;
+  padding: 8px 8px;
+  background: var(--color-primary, #6e1515);
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.7);
+  color: var(--color-text-on-primary, #f5f8ff);
+  font-size: 13px;
+  line-height: 10px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.u3-carousel:nth-child(1) .active:nth-child(1) > .b-image:after {
+  content: "Guts";
+}
+.u3-carousel:nth-child(1) .active:nth-child(2) > .b-image:after {
+  content: "Levi";
+}
+.u3-carousel:nth-child(1) .active:nth-child(3) > .b-image:after {
+  content: "Ruijerd Superdia";
+}
+
+.u3-carousel:nth-child(2) .active:nth-child(4) > .b-image:after {
+  content: "Alucard";
+}
+.u3-carousel:nth-child(2) .active:nth-child(2) > .b-image:after {
+  content: "Saitama";
+}
+.u3-carousel:nth-child(2) .active:nth-child(3) > .b-image:after {
+  content: "Rudol von Stroheim";
+}
+.u3-carousel:nth-child(5) .active:nth-child(2) > .b-image:after {
+  content: "Erwin Smith";
+}
+.u3-carousel:nth-child(3) .active:nth-child(2) > .b-image:after {
+  content: "Benimaru";
+}
+.u3-carousel:nth-child(3) .active:nth-child(3) > .b-image:after {
+  content: "Tanjirou Kamado";
+}
+.u3-carousel:nth-child(4) .active:nth-child(2) > .b-image:after {
+  content: "Jonathan Joestar";
+}
+.u3-carousel:nth-child(4) .active:nth-child(1) > .b-image:after {
+  content: "Inosuke Hashibira";
+}
+.u3-carousel:nth-child(4) .active:nth-child(3) > .b-image:after {
+  content: "Reg";
+}
+.u3-carousel:nth-child(5) .active:nth-child(4) > .b-image:after {
+  content: "Hyakkimaru";
+}
+.u3-carousel:nth-child(5) .active:nth-child(1) > .b-image:after {
+  content: "Tengen Uzui";
+}
+.u3-carousel:nth-child(5) .active:nth-child(3) > .b-image:after {
+  content: "Josuke Higashikata";
+}
+.u3-carousel:nth-child(6) .active:nth-child(2) > .b-image:after {
+  content: "Ken Kaneki";
+}
+.u3-carousel:nth-child(6) .active:nth-child(1) > .b-image:after {
+  content: "Rimuru Tempest";
+}
+.u3-carousel:nth-child(6) .active:nth-child(3) > .b-image:after {
+  content: "Dutch";
+}
+.u3-carousel:nth-child(1) .active:nth-child(4) > .b-image:after {
+  content: "Ban";
+}
+.u3-carousel:nth-child(2) .active:nth-child(1) > .b-image:after {
+  content: "Satoru Gojou";
+}
+.u3-carousel:nth-child(3) .active:nth-child(4) > .b-image:after {
+  content: "Yuuji Itadori";
+}
+.u3-carousel:nth-child(4) .active:nth-child(4) > .b-image:after {
+  content: "Escanor";
+}
+.u3-carousel:nth-child(3) .active:nth-child(1) > .b-image:after {
+  content: "Loid Forger";
+}
+
+
+
+.profile-content .u2-carousel.counter:hover {
+  box-shadow: 0px 0px 11px 6px linear-gradient(1145deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(1145deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 600%;
+    animation: glowing 20s linear infinite;
+    transition: opacity 0.25s ease-in-out;
+    border-radius: 0.5rem;
+}
+.profile-content .u3-carousel.counter:hover {
+   box-shadow: 0px 0px 11px 6px linear-gradient(1145deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(1145deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 600%;
+    animation: glowing 20s linear infinite;
+    transition: opacity 0.25s ease-in-out;
+    border-radius: 0.5rem;
+}
+@keyframes background {
+  100% {
+    background-position: 0 200px;
+    box-shadow: 0px 0px 11px 6px linear-gradient(1145deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  }
+}
+
+
+
+
+
+
+
+
+
+.fish {
+  margin: 5px auto 10px auto;
+}
+/*** Прогресс бар ***/
+.fish strong + em {
+  position: relative;
+  height: 27px;
+  border: 0;
+  padding: 3px;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;      /*убрать прозрачность!*/   /*не стоит задирать! а то видны будут переходы и косяки*/
+}
+.fish strong + em:hover {
+  z-index: 99;
+}
+.fish strong + em > br {
+  display: none;
+}
+/* Прогресс бар - деления */
+.fish strong + em > a.b-link,
+.fish strong + em > strong {
+  line-height: 1.65; /* Высота строки равна высоте делений */
+  float: left;
+  position: relative;
+  width: calc((100% * 1) / 17);
+  height: 100%;
+  margin-right: 3px; /* отступ между делениями, желательно равный padding у  Прогресс бара */
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(90deg, #2cb5cb, #0f0f0f1f);
+}
+.fish strong + em > a.b-link:last-child,
+.fish strong + em > strong:last-child {
+  margin-right: 0;
+}
+
+/* Прогресс бар - заполненные деления-ссылки */
+.fish strong + em > a.b-link,
+.fish strong + em > a.b-link:not(:first-child) {
+  cursor: var(--cursor-pointer), pointer;
+  color: #acb1b4!important;
+}
+.fish strong + em > a.b-link:hover,
+.fish strong + em > a.b-link:not(:first-child):hover {
+  background-color: #363052;
+  color: #c8cfd5!important;
+}
+/* Прогресс бар - пустые деления */
+.fish strong + em > strong {
+  background: #3f4244;
+  font-size: 0;
+}
+
+.fish strong + em > strong:after,
+.fish strong + em > a.b-link:not(:first-child):after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -10px;
+  margin: auto 0;   
+  transform: rotate(45deg);
+  transition: 0.3s;
+  outline: 4px solid
+}
+.fish strong + em > strong:after {
+  background: inherit;
+  outline-color: #171717;
+}
+.fish strong + em > a.b-link:not(:first-child):after {
+  outline-color: #171717;
+}
+
+.fish strong + em > a.b-link:last-of-type + strong:after,
+.fish strong + em > a.b-link:not(:first-child):after,
+.fish strong + em > a.b-link {
+  background-color: #232323;
+}
+.fish strong + em > a.b-link:hover + a.b-link:after,
+.fish strong + em > a.b-link:last-of-type:hover + strong:after {
+  background-color: #363052;
+}
+
+/* Всплывающие подсказки */
+.fish strong + em > a.b-link u,
+.fish strong + em > a.b-link > del {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  left: -1000%;
+  right: -1000%;
+  bottom: 0;
+  width: 150px;
+  padding: 5px;
+  margin: auto;
+  background-color: #222021;
+  box-shadow: 0 2px 4px #0000003d;
+  color: #bbb;
+  font-size: 14px;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: none;
+}
+/* Всплывающие подсказки - появление */
+
+.fish strong + em > a.b-link:hover > del,
+.fish strong + em > a.b-link:hover > u {
+  opacity: 1;
+  transition: 0.3s;
+  z-index: 100;
+}
+.fish strong + em > a.b-link:hover > del {
+  bottom: -46px;
+}
+.fish strong + em > a.b-link:hover > u {
+  bottom: 36px;
+}
+/* Прогресс бар - Clearfix */
+.fish strong + em:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Всплывающие подсказки - первая подсказка липнет к левому краю */
+.fish strong + em > a.b-link:first-child > u,
+.fish strong + em > a.b-link:first-child > del {
+  left: 0;
+  right: auto;
+}
+/* Всплывающие подсказки - последняя подсказка липнет к правому краю */
+.fish strong + em > a.b-link:last-child > u,
+.fish strong + em > a.b-link:last-child > del {
+  right: 0;
+  left: auto;
+}
+.fish strong + em > a.b-link:not(:first-child) {
+  padding-left: 1rem;
+}
+.fish strong + em > a.b-link:nth-child(1),
+.fish strong + em > strong:nth-child(1) {
+  z-index: 20;
+  border-radius: 2rem 0 0 2rem;
+}
+.fish strong + em > a.b-link:nth-child(2),
+.fish strong + em > strong:nth-child(2) {
+  z-index: 19;
+}
+.fish strong + em > a.b-link:nth-child(3),
+.fish strong + em > strong:nth-child(3) {
+  z-index: 18;
+}
+.fish strong + em > a.b-link:nth-child(4),
+.fish strong + em > strong:nth-child(4) {
+  z-index: 17;
+}
+.fish strong + em > a.b-link:nth-child(5),
+.fish strong + em > strong:nth-child(5) {
+  z-index: 16;
+}
+.fish strong + em > a.b-link:nth-child(6),
+.fish strong + em > strong:nth-child(6) {
+  z-index: 15;
+}
+.fish strong + em > a.b-link:nth-child(7),
+.fish strong + em > strong:nth-child(7) {
+  z-index: 14;
+}
+.fish strong + em > a.b-link:nth-child(8),
+.fish strong + em > strong:nth-child(8) {
+  z-index: 13;
+}
+.fish strong + em > a.b-link:nth-child(9),
+.fish strong + em > strong:nth-child(9) {
+  z-index: 12;
+}
+.fish strong + em > a.b-link:nth-child(10),
+.fish strong + em > strong:nth-child(10) {
+  z-index: 11;
+}
+.fish strong + em > a.b-link:nth-child(11),
+.fish strong + em > strong:nth-child(11) {
+  z-index: 10;
+}
+.fish strong + em > a.b-link:nth-child(12),
+.fish strong + em > strong:nth-child(12) {
+  z-index: 9;
+}
+.fish strong + em > a.b-link:nth-child(13),
+.fish strong + em > strong:nth-child(13) {
+  z-index: 8;
+}
+.fish strong + em > a.b-link:nth-child(14),
+.fish strong + em > strong:nth-child(14) {
+  z-index: 7;
+}
+.fish strong + em > a.b-link:nth-child(15),
+.fish strong + em > strong:nth-child(15) {
+  z-index: 6;
+}
+.fish strong + em > a.b-link:nth-child(16),
+.fish strong + em > strong:nth-child(16) {
+  z-index: 5;
+}
+.fish strong + em > a.b-link:nth-child(17),
+.fish strong + em > strong:nth-child(17) {
+  z-index: 4;
+}
+.fish strong + em > a.b-link:nth-child(18),
+.fish strong + em > strong:nth-child(18) {
+  z-index: 3;
+}
+.fish strong + em > a.b-link:nth-child(19),
+.fish strong + em > strong:nth-child(19) {
+  z-index: 2;
+}
+.fish strong + em > a.b-link:nth-child(20),
+.fish strong + em > strong:nth-child(20) {
+  z-index: 1;
+}
+.fish strong + em > a.b-link:last-child,
+.fish strong + em > strong:last-child {
+  margin-right: 0;
+  border-radius: 0 2rem 2rem 0;
+}
+/*** Конец Прогресс бара ***/
+
+
+
+
+
+.container-img {
+   margin: 0% 5% 1%;
+    max-width: 100%;
+    padding: 8px;
+    display: inline-flex;
+}
+.carousel .figure .b-image img {
+    height: 130px;
+    width: 210px;
+    max-height: 130px;
+    max-width: 210px;
+}
+.carousel {
+    width: 100%;
+    display: inline-block;
+    margin: 4% 0% 0% 0%;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+.carousel .figure {
+    background: none repeat scroll 0 0 rgb(11 57 66 / 90%);
+    float: left;
+    height: 160px;
+    padding: 10px;
+    position: relative;
+    transition: all 0.4s ease-in 0s;
+    width: 240px;
+    z-index: 2;
+}
+.carousel .figure:nth-child(2n) {
+	left: 15px;
+    transform: translate(75px, 0px) rotate(30deg);
+}
+.carousel .figure:nth-child(2n+1) {
+    left: 45px;
+    top: 26px;
+    transform: translate(35px, -20px) rotate(-25deg);
+
+}
+.carousel .figure:nth-child(3n) {
+    left: 90px;
+    top: 12px;
+    transform: translate(-10px, -30px) rotate(-15deg);
+}
+.carousel .figure:nth-child(4n) {
+    left: 95px;
+    top: 8px;
+    transform: translate(-10px, -30px) rotate(20deg);
+}
+.carousel .figure:nth-child(5n) {
+    left: 25px;
+    top: 35px;
+}
+.carousel .figure:nth-child(6n) {
+    transform: translate(-10px, -30px) rotate(15deg);
+}
+.carousel .figure:nth-child(9n) {
+    transform: translate(-10px, -30px) rotate(22deg);
+}
+.carousel .figure:hover {
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.6);
+    transform: rotate(360deg) scale(1.3);
+    z-index: 10;
+  }
+
+
+
+.id-01 {
+width: calc(100% / 1 - 1 * 1%);
+}
+
+div[data-user_id="1088479"] .name-date::before {
+    content: '♡';
+    display: inline-block;
+    position: relative;
+    margin-right: 0.5rem;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 2px 0.5em;
+    color: black;
+    font-size: .75rem;
+    background: linear-gradient(135deg, #c5f5f0	,#40e0d0, #26867c,#40e0d0,#c5f5f0);
+  opacity:0.7;
+}
+div[data-user_id="1088479"] .name:after {
+    content: '♡';
+    display: inline-block;
+    position: relative;
+    margin-right: 0.5rem;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 2px 0.5em;
+    color: black;
+    font-size: .75rem;
+    background: linear-gradient(135deg, #c5f5f0	,#40e0d0, #26867c,#40e0d0,#c5f5f0);
+  opacity:0.7;
+}
+
+.b-spoiler label {
+    color: rgba(var(--light-color), 1);
+    border: transparent;
+    border-radius: 6px;
+    padding: 0 6px;
+    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+  
+}
+.b-spoiler  {
+     height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 20px 0;  
+}
+.block {
+    margin-bottom: 30px;
+    line-height: 1.65;
+    position: relative;
+    filter: xray(50%);
+}
+
+.Ssylki-anime-v-1-standard > strong > a[href*="/characters/71581-"]::before {
+  background-image: url("https://qph.cf2.quoracdn.net/main-qimg-a727c557f2d6f20376f7edc83e84a717.webp");
+  background-position: 30% 50%;
+}
+.Ssylki-anime-v-1-standard > strong > a[href*="/characters/151195-"]::before {
+  background-image: url("https://pm1.narvii.com/7731/e97e051ef0ebf60395177187b1b8072f5a1f51cdr1-248-228v2_hq.jpg");
+} 
+
+
+
+:root .tabs-2,.tabs-3 {
+  /*Сontainer*/
+  --background-container: 0, 0, 0; /*Цвет дна внутри контейнера*/
+  --padding-container: 10px; /*Внутренней отступ внутри контейнера*/
+  /*hr > разделительная линия внутри таба*/
+  --hr: 70, 130, 180; /*Цвет*/
+  --hr-margin: 0.5rem 0; /*отступ*/
+  --hr-height-1px: 1px; /*толщина Полоски*/
+  /*tabs-2*/
+  --tabs-2-width: 1200px; /*Ширина таба > 100% 1000px ИТД*/
+  --tabs-2-margin: 0.5rem; /*внешний отступ! вокруг таба*/
+  --tabs-2-border-solid: 1px; /*Толщина линии вокруг таба*/
+  --tabs-2-border-sol-color: 70, 130, 180; /*Цвет линии вокруг таба */
+  --tabs-2-box-shadow: 0, 0, 0; /*Тень вокруг таба > Цвет*/
+  --tabs-2-font-size: 14px; /*Размер шрифта внутри таба. если не прописан размер то берется отсюда для контента*/
+  --tabs-2-line-height: 1.65;
+  --tabs-2-border-radius: 15px; /*Закруглить концы вокруг таба*/
+  /*header*/
+  --header-background: 0, 0, 0; /*Цвет дна внутри контейнера с кнопками*/
+  --header-text-shadow: 0, 0, 0;
+  --header-grid-row-gap: 0.3rem; /*Отступ между кнопками*/
+  --header-padding: 0.5rem;
+  /*header div*/
+  --header-div-width: 165px; /*Размер кнопки по ширине*/
+  --header-div-height: auto; /*Размер кнопки по высоте*/
+  --header-div-min-height: 35px; /*Размер кнопки мини по высоте*/
+  --header-div-border-radius: 0.2rem; /*Закруглить кнопки*/
+  --header-div-font-size: 14px; /*Размер иконки. внутри кнопки*/
+  --tabs-2-header-div-width: 35px; /*Размер кнопки по высоте) Таб с иконками*/
+  --tabs-2-header-div-height: 35px; /*Размер кнопки по высоте) Таб с иконками*/
+  --tabs-2-header-div-font-size: 15px; /*Размер иконки. внутри кнопки*/
+  --tabs-2-header-div-border-radius: 15px; /*Закруглить кнопки) Таб с иконками*/
+  --header-div-background: 0, 0, 0; /*Цвет кнопок*/
+  --header-div-box-shadow: 0, 0, 0;
+  --header-div-border-solid: 3px; /*Шуба вокруг кнопок 3px*/
+  --header-div-border-top-color: 37, 84, 199; /*Цвет*/
+  --header-div-border-left-color: 70, 130, 180; /*Цвет*/
+  --header-div-border-right-color: 70, 130, 180; /*Цвет*/
+  --header-div-border-bottom-color: 37, 84, 199; /*Цвет*/
+  --header-div-color: 173,201,176; /*Цвет иконок внутри кнопок*/
+  /*header div:hover*/
+  --header-div-hover-background:126, 160, 212; /*Цвет кнопок при наведение-done*/
+  /*header div.active*/
+  --header-div-active-background: 43, 84, 126; /*Цвет активной кнопки-done*/
+  --header-div-active-color: 184, 184, 184;
+  /*div.button-h::before*/
+  --div-button-h-before-background: 29, 28, 28; /*Цвет дна кнопки*/
+  --div-button-h-before-box-shadow: 150, 150, 150; /*Тень*/
+  --div-button-h-before-text-shadow: 0, 0, 0;
+  --div-button-h-before-font-size: 14px; /*Размер всплывающего текста!! при наведение на кнопки*/
+  --div-button-h-before-color: 155, 155, 155; /*цвет всплывающего текста*/
+}
+/* Табы 3 */
+@import url("https://raw.githubusercontent.com/GM-apostal/GM-apostal.github.io/master/Css-sh/tabs-3.css");
+
+.tabs-3 .container {
+  background-color: rgba(var(--background-container), 0.3); /*Степень прозрачности цвета > 0.3*/
+}
+.tabs-3 .header {
+  background: rgba(var(--header-background), 0.15); /*Степень прозрачности цвета > 0.15*/
+}
+.tabs-3 .header div {
+  border-radius: var(--tabs-2-border-radius);
+  background: rgba(var(--header-div-background), 0.2); /*Степень прозрачности цвета > 0.2*/
+  box-shadow: 0 1px 4px 1px rgba(var(--header-div-box-shadow), 0.15); /*Степень прозрачности*/
+  border-left-color: rgba(var(--header-div-border-left-color), 0.9); /*Степень прозрачности*/
+  border-right-color: rgba(var(--header-div-border-right-color), 0.9); /*Степень прозрачности*/
+  border-bottom-color: rgba(var(--header-div-border-bottom-color), 0.9); /*Степень прозрачности*/
+  border-top-color: rgba(var(--header-div-border-top-color), 0.9); /*Степень прозрачности*/
+}
+.tabs-3 .header div:hover {
+  background: rgba(var(--header-div-hover-background), 0.7); /*Степень прозрачности*/
+}
+.tabs-3 .header div.active {
+  background-color: rgba(var(--header-div-active-background), 0.8); /*Степень прозрачности*/
+}
+
+/* Табы 2 */
+.tabs-2 {
+  position: relative;
+  display: flex;
+  max-width: var(--tabs-2-width);
+  margin: var(--tabs-2-margin);
+  border: var(--tabs-2-border-solid) solid rgba(var(--tabs-2-border-sol-color), 1);
+  border-radius: var(--tabs-2-border-radius);
+  font-size: var(--tabs-2-font-size);
+  line-height: var(--tabs-2-line-height);
+  box-shadow: 0 2px 8px rgba(var(--tabs-2-box-shadow), 0.25);
+  overflow: hidden;
+}
+/* Контейнер Кнопок */
+.tabs-2 .header {
+  border-radius: var(--tabs-2-border-radius);
+  display: flex;
+  width: auto;
+  user-select: none;
+  border-right: inherit;
+  /*background: rgba(var(--header-background), 0.15);*/
+  text-shadow: 0 1px 2px rgb(var(--header-text-shadow), 1);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  flex-direction: column;
+  grid-row-gap: var(--header-grid-row-gap);
+  padding: var(--header-padding);
+}
+/* Кнопка в обычном состоянии */
+.tabs-2 .header div {
+  display: flex;
+  position: relative;
+  width: var(--header-div-width);
+  height: var(--header-div-height);
+  min-height: var(--header-div-min-height);
+  border-radius: var(--header-div-border-radius);
+  line-height: 1.65;
+  font-size: var(--header-div-font-size);
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(var(--header-div-color), 1);
+  cursor: var(--cursor-pointer), pointer;;
+  transition: color 0.15s, flex-grow 0.05s, font-size 0s;
+  /*background: rgba(var(--header-div-background), 0.2);*/
+  /*box-shadow: 0 1px 4px 1px rgba(var(--header-div-box-shadow), 0.15);*/
+  border: var(--header-div-border-solid) solid;
+ /*border-left-color: rgba(var(--header-div-border-left-color), 0.9);*/
+  /*border-right-color: rgba(var(--header-div-border-right-color), 0.9);*/
+  /*border-bottom-color: rgba(var(--header-div-border-bottom-color), 0.9);*/
+  /*border-top-color: rgba(var(--header-div-border-top-color), 0.9);*/
+}
+/*.tabs-3 .header div:hover {
+  background: rgba(var(--header-div-hover-background), 0.7);
+}*/
+/* Активированная Кнопка */
+.tabs-2 .header div.active {
+  cursor: var(--cursor-default), default;
+  /* background-color: rgba(var(--header-div-active-background), 0.8);*/
+  /* color: rgba(var(--header-div-active-color), 0.9);*/
+}
+/* Контейнер Содержимого */ /* Цвет и размер линии разделяющая Кнопки и Содержимое */
+.tabs-2 .container {
+  flex-grow: 1;
+  padding: var(--padding-container);
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-left: none;
+  height: auto;
+}
+/* Содержимое */
+.tabs-2 .container > div {
+  display: none !important;
+  visibility: hidden;
+  opacity: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.02s, visibility 0.02s;
+  transition-delay: 0s, 0s;
+}
+.tabs-2 .container > div:not(.hidden) {
+  display: block !important;
+  visibility: visible;
+  opacity: 1;
+  overflow: initial;
+  transition: opacity 0.02s, visibility 0.02s;
+  transition-delay: 0.02s, 0.02s;
+}
+.tabs-2 .b-image img {
+  width: 100%;
+}
+.hr,
+.hr-2,
+.hr-3,
+.hr-4,
+.hr-5,
+.hr-6,
+.hr-7,
+.hr-8,
+.hr-9,
+.hr-10 {
+  height: var(--hr-height-1px);
+  margin: var(--hr-margin);
+  background-image: -webkit-linear-gradient(left, transparent, rgb(var(--hr), 1), transparent);
+}
+
+  .tabs-2 {
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 0.6rem;
+  }
+  .tabs-2 .header {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    white-space: nowrap;
+    padding: 0.5rem 0.5rem 0.5rem;
+    border-radius: 0.65rem 0.65rem 0 0;
+    border-bottom: inherit;
+    border-right: none;
+    text-align: center;
+  }
+  .tabs-2 .header div {
+    /*border-radius: var(--tabs-2-border-radius);*/
+    display: inline-flex;
+    margin: auto 0.1rem;
+    width: auto;
+    padding: 0 15px;
+    border-radius: 70px 10px;
+    background: linear-gradient(90deg, #2cb5cb, #0f0f0f1f);
+  }
+  .tabs-2 .container {
+    border-radius: 0 0 0.65rem 0.65rem;
+    border-top: none;
+    border-left: 1px solid rgba(var(--border-1px-container), 1);
+  }
+  .tabs-2 .header::-webkit-scrollbar-thumb {
+    border-radius: 0rem;
+  }
+  .tabs-2 .header::-webkit-scrollbar {
+    height: 8px;
+  }
+
+
+
+
+.tabs-2 .container {
+  background-color: rgba(var(--background-container), 0.3); /*Степень прозрачности цвета > 0.3*/
+}
+.tabs-2 .header {
+  background: rgba(var(--header-background), 0.15); /*Степень прозрачности цвета > 0.15*/
+}
+.tabs-2 .header div {
+  /*background: rgba(var(--header-div-background), 0.2); /*Степень прозрачности цвета > 0.2*/
+  box-shadow: 0 1px 4px 1px rgba(var(--header-div-box-shadow), 0.15); /*Степень прозрачности*/
+  border-left-color: rgba(var(--header-div-border-left-color), 0.9); /*Степень прозрачности*/
+  border-right-color: rgba(var(--header-div-border-right-color), 0.9); /*Степень прозрачности*/
+  border-bottom-color: rgba(var(--header-div-border-bottom-color), 0.9); /*Степень прозрачности*/
+  border-top-color: rgba(var(--header-div-border-top-color), 0.9); /*Степень прозрачности*/
+}
+.tabs-2 .header div:hover {
+  background: rgba(var(--header-div-hover-background), 0.7); /*Степень прозрачности*/
+}
+.tabs-2 .header div.active {
+  background-color: rgba(var(--header-div-active-background), 0.8); /*Степень прозрачности*/
+  color: #2e2e2e;
+}
+
+
+
+
+.slideshow {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    margin: 20px 0;
+}
+.slideshow-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    animation: slideanim 21s infinite;
+    pointer-events: none;
+}
+.slideshow-item:nth-child(1),
+.slideshow-item:nth-child(1) img {
+    animation-delay: 0;
+}
+.slideshow-item:nth-child(2),
+.slideshow-item:nth-child(2) img {
+    animation-delay: 7s;
+}
+.slideshow-item:nth-child(3),
+.slideshow-item:nth-child(3) img {
+    animation-delay: 14s;
+}
+
+.slideshow-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoom 40s infinite;
+}
+.slideshow-item-text {
+    max-width: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 20px 30px;
+    font-family: Verdana, sans-serif;   
+}
+.slideshow-item-text h5 {
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    color: #BFE2FF;
+}
+.slideshow-item-text p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+@keyframes slideanim {
+    12.5%{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    25%{
+        opacity: 1;
+        pointer-events: auto;
+    }    
+    37.5%{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .slideshow-item-text{
+        max-width: 75%;
+    }
+}
+@media screen and (max-width: 456px){
+    .slideshow-item-text {
+        bottom: 0;
+        left: 0;
+        max-width: 100%;
+    }
+    .slideshow-item-text h5 {
+        font-size: 18px;
+    }
+    .slideshow-item-text p {
+        font-size: 13px;
+    }
+}
+
+
+
+@media (min-width: 700px){
+.fix-bg {
+  background: url(https://moe.shikimori.one/system/user_images/original/1088479/1994372.jpg) center;
+    height: 500px;
+  	width: 1140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+}
+
+
+
+
+.hexagon-photo {
+    font-size: 1em;
+    position: relative;
+    height: 37em;
+    width: 39em;
+    margin: 20px auto;
+    background-image: radial-gradient(circle, #337ab700 0%, #337ab700 70%, transparent 70%, transparent 100%), radial-gradient(circle, #bfe2ff00 0%, #bfe2ff00 70%, transparent 70%, transparent 100%), radial-gradient(circle, #bfe2ff00 0%, #bfe2ff00 70%, transparent 70%, transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 20em 20em, 15em 15em, 12em 12em;
+    background-position: 5em 5em, 20em 10em, 11em 25em;
+}
+@media screen and (max-width: 767px) {
+    .hexagon-photo {
+        height: 46em;
+        width: 30em;
+        background-size: 20em 20em, 17em 17em, 10em 10em;
+        background-position: 2em 3em, 10em 16em, 3em 32em;
+    }
+}
+@media screen and (max-width: 580px) {
+    .hexagon-photo {
+        height: 61em;
+        width: 20em;
+        background-size: 18em 18em, 17em 17em, 10em 10em;
+        background-position: 1.5em 7em, 0em 25em, 7em 44em;
+    }
+}
+.hexagon {
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    filter: drop-shadow(0 7px 15px rgba(0, 0, 0, 0.5));
+}
+.hexagon.hex-big {
+    height: 15em;
+    width: 15em;
+}
+.hexagon.hex-small {
+    height: 6em;
+    width: 6em;
+}
+.hexagon:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    background-size: cover;
+}
+.hexagon:nth-of-type(1):before {
+    background-image: url("https://i.kym-cdn.com/photos/images/original/002/352/673/7c3.jpg") ;
+}
+.hexagon:nth-of-type(2):before {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/237/258/456/spy-x-family-anime-girls-anime-anya-forger-hd-wallpaper-preview.jpg") ;
+}
+.hexagon:nth-of-type(3):before {
+    background-image: url("https://cs12.pikabu.ru/post_img/big/2022/05/02/4/1651464014142790197.jpg");
+}
+.hexagon:nth-of-type(4):before {
+    background-image: url("https://static.displate.com/280x392/displate/2022-02-17/4c1a96fff3ea87f759d25fb08dc61cc8_f6a6ace7a17c848925089d341d1419e0.jpg");
+}
+.hexagon:nth-of-type(5):before {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXz_7_SZ7Q-LB3zCrbbkew6_nD_GB3GZv67VfLkUDGbK7PREMU0G0tydnBpH6BsRxE1G8&usqp=CAU");
+}
+.hexagon:nth-of-type(6):before {
+    background-image: url("https://gamek.mediacdn.vn/133514250583805952/2022/4/4/edit-1-16490670939872053572397.jpeg");
+}
+.hexagon:nth-of-type(7):before {
+    background-image: url("https://i.pinimg.com/736x/a3/c3/81/a3c3811d9e00e571ea9523776679ba2e.jpg");
+}
+.hexagon:nth-of-type(8):before {
+    background-image: url("https://static.wikia.nocookie.net/ficcion-sin-limites/images/7/7d/Loid_Forger_.jpg/revision/latest/scale-to-width-down/400?cb=20220809083052&path-prefix=es");
+}
+.hexagon:nth-of-type(9):before {
+    background-image: url("https://i.pinimg.com/236x/7a/25/bc/7a25bc8212eda5b57c669b7e28f28af8.jpg");
+}
+
+.hexagon:nth-of-type(1) {
+    top: 3em;
+    left: 5em;
+}
+.hexagon:nth-of-type(2) {
+    top: 11em;
+    left: 18em;
+}
+.hexagon:nth-of-type(3) {
+    top: 0;
+    left: 19em;
+}
+.hexagon:nth-of-type(4) {
+    top: 22em;
+    left: 10em;
+}
+.hexagon:nth-of-type(5) {
+    top: 27em;
+    left: 20em;
+}
+.hexagon:nth-of-type(6) {
+    top: 30em;
+    left: 5em;
+}
+.hexagon:nth-of-type(7) {
+    top: 10em;
+    left: 32em;
+}
+.hexagon:nth-of-type(8) {
+    top: 1em;
+    left: 1em;
+}
+.hexagon:nth-of-type(9) {
+    top: 23em;
+    left: 31em;
+}
+
+@media screen and (max-width: 767px) {
+    .hexagon:nth-of-type(1) {
+        top: 3em;
+        left: 5em;
+    }
+    .hexagon:nth-of-type(2) {
+        top: 17em;
+        left: 14em;
+    }
+    .hexagon:nth-of-type(3) {
+        top: 0;
+        left: 19em;
+    }
+    .hexagon:nth-of-type(4) {
+        top: 27em;
+        left: 6em;
+    }
+    .hexagon:nth-of-type(5) {
+        top: 33em;
+        left: 16em;
+    }
+    .hexagon:nth-of-type(6) {
+        top: 14em;
+        left: 1em;
+    }
+    .hexagon:nth-of-type(7) {
+        top: 40em;
+        left: 11em;
+    }
+    .hexagon:nth-of-type(8) {
+        top: 1em;
+        left: 1em;
+    }
+    .hexagon:nth-of-type(9) {
+        top: 11em;
+        left: 20em;
+    }
+}
+@media screen and (max-width: 580px) {
+    .hexagon:nth-of-type(1) {
+        top: 4em;
+        left: 4em;
+    }
+    .hexagon:nth-of-type(2) {
+        top: 20em;
+        left: 1em;
+    }
+    .hexagon:nth-of-type(3) {
+        top: 35em;
+        left: 7em;
+    }
+    .hexagon:nth-of-type(4) {
+        top: 43em;
+        left: 0em;
+    }
+    .hexagon:nth-of-type(5) {
+        top: 48em;
+        left: 9em;
+    }
+    .hexagon:nth-of-type(6) {
+        top: 20em;
+        left: 14em;
+        height: 4em;
+        width: 4em;
+    }
+    .hexagon:nth-of-type(7) {
+        top: 54em;
+        left: 3em;
+    }
+    .hexagon:nth-of-type(8) {
+        top: 1em;
+        left: 1em;
+    }
+    .hexagon:nth-of-type(9) {
+        top: 36em;
+        left: 4em;
+        height: 3em;
+        width: 3em;
+    }
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Tabs */
+:root {
+  --is-theme-dark: 0;
+  --l-theme-default: 55%;
+}
+.use-tabs {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  --c-tab: 0 0%;
+  --c-border: rgb(70, 130, 180);
+
+  --l-text-inactive: calc(var(--l-theme-default) + (1 + (var(--is-theme-dark) * -2)) * -9%);
+  --l-text-active: calc(var(--l-theme-default) + (1 + (var(--is-theme-dark) * -2)) * -37%);
+  --l-background: calc(var(--l-theme-default) + (1 + (var(--is-theme-dark) * -2)) * -33%);
+}
+.use-tabs.--dark {
+  --is-theme-dark: 1;
+}
+.use-tabs > div:not([data-dynamic]) {
+  flex: 1 0 100%;
+  min-width: 100%;
+}
+.use-tabs > div > div {
+  display: none;
+  padding: 12px 0;
+}
+.use-tabs > .active:nth-child(1) ~ div > div:nth-child(1),
+.use-tabs > .active:nth-child(2) ~ div > div:nth-child(2),
+.use-tabs > .active:nth-child(3) ~ div > div:nth-child(3),
+.use-tabs > .active:nth-child(4) ~ div > div:nth-child(4),
+.use-tabs > .active:nth-child(5) ~ div > div:nth-child(5),
+.use-tabs > .active:nth-child(6) ~ div > div:nth-child(6),
+.use-tabs > .active:nth-child(7) ~ div > div:nth-child(7),
+.use-tabs > .active:nth-child(8) ~ div > div:nth-child(8),
+.use-tabs > .active:nth-child(9) ~ div > div:nth-child(9),
+.use-tabs > .active:nth-child(10) ~ div > div:nth-child(10),
+.use-tabs > .active:nth-child(11) ~ div > div:nth-child(11),
+.use-tabs > .active:nth-child(12) ~ div > div:nth-child(12),
+.use-tabs > .active:nth-child(13) ~ div > div:nth-child(13),
+.use-tabs > .active:nth-child(14) ~ div > div:nth-child(14),
+.use-tabs > .active:nth-child(15) ~ div > div:nth-child(15),
+.use-tabs > .active:nth-child(16) ~ div > div:nth-child(16),
+.use-tabs > .active:nth-child(17) ~ div > div:nth-child(17),
+.use-tabs > .active:nth-child(18) ~ div > div:nth-child(18),
+.use-tabs > .active:nth-child(19) ~ div > div:nth-child(19),
+.use-tabs > .active:nth-child(20) ~ div > div:nth-child(20) {
+  display: block;
+}
+.use-tabs > [data-dynamic] {
+  display: inline-block;
+  padding: 4px 16px;
+  margin: 0.5rem 0;
+  border: var(--header-div-border-solid) solid;
+  border-radius: 40px;
+  color: rgb(var(--header-div-color), 1);
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+  cursor: var(--cursor-pointer), pointer;
+  transition: color 0.15s, flex-grow 0.05s, font-size 0s;
+  user-select: none;
+  background: linear-gradient(90deg, #2cb5cb, #0f0f0f1f);
+}
+.use-tabs > [data-dynamic]:hover {
+  background: rgba(var(--header-div-hover-background), 0.7); /*Степень прозрачности*/
+}
+.use-tabs > [data-dynamic].active {
+  background: linear-gradient(90deg, #2cb5cb, #0f0f0f1f);
+}
+.use-tabs > [data-dynamic].active:hover {
+  background: rgba(var(--header-div-active-background), 0.8); /*Степень прозрачности*/
+}
+@media (max-width: 960px){
+.use-tabs > [data-dynamic].active {
+    color: rgb(var(--header-div-color), 1);
+  border-radius: 70px 10px;
+}
+  .use-tabs > [data-dynamic] {
+    display: inline-block;
+    padding: 4px 16px;
+    margin: 0.5rem 0;
+    border: var(--header-div-border-solid) solid;
+    border-radius: 70px 10px;
+    color: rgb(var(--header-div-color), 1);
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+    cursor: var(--cursor-pointer), pointer;
+    transition: color 0.15s, flex-grow 0.05s, font-size 0s;
+    user-select: none;
+    background: linear-gradient(90deg, #2cb5cb, #0f0f0f1f);
+}
+}
+
+/* Vertical */
+@media (min-width: 960px) {
+  .use-tabs.--vertical {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-auto-rows: minmax(0, max-content);
+    padding: 8px 0;
+    border: 1px solid var(--c-border);
+    border-radius: 15px;
+      text-shadow: 0 1px 2px rgb(var(--header-text-shadow), 1);
+  }
+  .use-tabs.--vertical > div:not([data-dynamic]) {
+    grid-column: 2;
+    grid-row: 1 / 50; /* max tabs */
+    margin: -8px 0;
+    border: none;
+    border-left: 1px solid var(--c-border);
+  }
+  .use-tabs.--vertical > div > div {
+    padding: 18px 24px;
+  }
+  .use-tabs.--vertical > [data-dynamic] {
+    display: block;
+    grid-column: 1;
+    padding: 8px 16px;
+    margin: 2px 2px;
+    border: var(--header-div-border-solid) solid;
+    border-left-color: rgba(var(--header-div-border-left-color), 0.9);
+    border-right-color: rgba(var(--header-div-border-right-color), 0.9);
+    border-bottom-color: rgba(var(--header-div-border-bottom-color), 0.9);
+    border-top-color: rgba(var(--header-div-border-top-color), 0.9);
+    /* border-radius: 15px; */
+    text-align: center;
+    border-radius: 70px 10px;
+    /* border-left: 0px solid #d8dde4;*/
+  }
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.blink {
+    animation: blink 3s linear infinite; /* Параметры анимации */
+   }
+   @keyframes blink {
+    30% { opacity: 1; /* Непрозрачный текст */ }
+    60% { opacity: 0.25; animation-delay:1s; /* Прозрачный текст */ }
+    90% { opacity: 1; /* Непрозрачный текст */ }
+   }
+.p-profiles .profile-head .c-brief header h1 {
+   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+.sided-block span { display: none; } 
+.sided-block .b-link { font-size: 0; }
+.sided-block__item a { position: absolute; 
+  top: 0; left: 0; right: 0; 
+  bottom: 0; z-index: 5; }
+
+.sided-block__item { 
+  border-radius: 15px; 
+}
+
+.sided-block__item strong {   
+  width: calc(100% - 4px);
+  margin: 2px auto;
+  overflow: hidden; 
+  border-radius: 15px 15px 5px 5px;
+} 
+
+.sided-block {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;    
+  justify-content: space-around;
+  margin-top: 0.8rem;
+}
+
+.sided-block__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 6px 0px #00000040;
+  background: rgba(var(--block-color), 0.2);
+}
+
+.sided-item__title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  height: 2.8rem;
+  padding: 0.2rem;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #cce0d1;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  overflow: hidden;
+  transition: color 0.05s ease;
+}
+  
+.sided-item__background {
+  position: relative;
+  padding-top: 60%;
+}
+
+.sided-item__background::before, 
+.sided-item__background::after {
+  content: "";
+  position: absolute;
+  right: 0; left: 0;
+  top: 0; bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  transition: opacity 0.5s ease;
+}  
+
+.sided-block__item:hover 
+.sided-item__title { color: #f93; } 
+.sided-item__background::after { opacity: 0; }
+.sided-block__item:hover 
+.sided-item__background::after { opacity: 1; }
+.sided-block__item:hover  
+.sided-item__background::before { opacity: 0; }
+
+
+
+@media screen and (min-width: 1px) {
+.sided-block__item {
+    width: calc(100% / 1 - 1 * 1%);
+  }
+}
+
+@media screen and (min-width: 320px) {
+.sided-block__item {
+    width: calc(100% / 2 - 1 * 2%);
+    margin: 0 1% 1.2rem 1%;
+  }
+}
+@media screen and (min-width: 768px) {
+.sided-block__item {
+    width: calc(100% / 4 - 1 * 0.6%);
+    margin: 0 0.3% 1.2rem 0.3%;
+  }
+}
+/* Картинки или GIF */
+	.sided-block__item a[href*="/animes/z37450"]+ ::before {
+		/* До */
+		background-image: url("http://sun9-84.userapi.com/impg/2NaD8vtPJo19HVNVkM0LgH2so0xQU1o49_5KFg/3z69R03fb5U.jpg?size=1280x680&quality=96&sign=413f74ac31528f6958276e77249aaac9&type=album");
+		;
+	}
+	.sided-block__item a[href*="/animes/z37450"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://entusiastanerd.com.br/wp-content/uploads/2021/09/josee-to-tora-to-sakana-tachi-josee-the-tiger-and-the-fish.gif");
+	}
+.sided-block__item a[href*="/animes/40787"]+ ::before {
+		/* До */
+		background-image: url("https://i.pinimg.com/originals/fa/ea/9a/faea9a6ac8ec181c548f1a3939e39ccc.jpg");
+		;
+	}
+	.sided-block__item a[href*="/animes/40787"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://99px.ru/sstorage/86/2021/04/image_861904210810278082582.gif");
+	}
+.sided-block__item a[href*="/animes/z36098"]+ ::before {
+		/* До */
+		background-image: url("http://pm1.narvii.com/7563/fcf55b4158db526910a1d62d42a482414ebfddder1-1280-720v2_uhq.jpg");
+		;
+	}
+	.sided-block__item a[href*="/animes/z36098"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://64.media.tumblr.com/fe1280b4ba8b351ebf67bafd504656b5/21babc7e88db8712-08/s500x750/377d9480b0173eb437b301193d9e9f314ac3a6e6.gif");
+	}
+.sided-block__item a[href*="/animes/32281"]+ ::before {
+		/* До */
+		background-image: url("https://i0.wp.com/lacomikeria.com/wp-content/uploads/2018/01/kiminonawa.jpg?ssl=1");
+		;
+	}
+	.sided-block__item a[href*="/animes/32281"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://pa1.narvii.com/6431/83fc11576aadcf8d944fb00099c2d10bf4ab67cd_hq.gif");
+	}
+.sided-block__item a[href*="/animes/z34599"]+ ::before {
+		/* До */
+		background-image: url("https://c4.wallpaperflare.com/wallpaper/353/497/196/anime-made-in-abyss-made-in-abyss-mitty-made-in-abyss-wallpaper-preview.jpg");
+		;
+	}
+	.sided-block__item a[href*="/animes/z34599"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://media.tenor.com/TBvHFMEOeHgAAAAd/made-in-abyss.gif");
+	}
+.sided-block__item a[href*="/animes/y28851"]+ ::before {
+		/* До */
+		background-image: url("https://kritikanstvo.ru/movies/k/koenokatachi/images/koenokatachi_316990.jpg");
+		;
+	}
+	.sided-block__item a[href*="/animes/y28851"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://media.tenor.com/1BZ-IOT6coYAAAAd/koe-no-katachi-anime.gif");
+	}
+.sided-block__item a[href*="/animes/33352"]+ ::before {
+		/* До */
+		background-image: url("https://cdn.idntimes.com/content-images/community/2022/06/729615-9fdffa2858af8165bf3da6540a94308c-cba1fea53d4ce24895fdc5e19dbd8b30_600x400.jpg");
+		;
+	}
+	.sided-block__item a[href*="/animes/33352"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://i.pinimg.com/originals/3b/1f/2d/3b1f2d64d4181e01aa9e89442c5ef896.gif");
+	}
+	
+
+.sided-block__item a[href*="/animes/268"]+ ::before {
+		/* До */
+		background-image: url("https://dere.shikimori.one/system/user_images/original/1039951/1832459.jpg");
+		;
+	}
+	.sided-block__item a[href*="/animes/268"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://c.tenor.com/DAu9bhoIt3kAAAAd/golden-boy-kintaro.gif");
+	}
+.sided-block__item a[href*="/animes/50265"]+ ::before {
+		/* До */
+		background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/M5XV7HW4S5EQRKLBKDVQZHM5II.png");
+		;
+	}
+	.sided-block__item a[href*="/animes/50265"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://media.tenor.com/DCvO2o5rQnEAAAAC/spy-x-family-spy-family.gif");
+	}
+.sided-block__item a[href*="/animes/889"]+ ::before {
+		/* До */
+		background-image: url("https://www.animenachrichten.de/wp-content/uploads/2021/09/black-lagoon.jpg");
+		;
+	}
+	.sided-block__item a[href*="/animes/889"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://pa1.narvii.com/6654/f27962c48acab4dbb45b065797e117b6b7e47907_hq.gif");
+	}
+.sided-block__item a[href*="/animes/z37430"]+ ::before {
+		/* До */
+		background-image: url("https://desu.shikimori.one/system/screenshots/original/e6cfea01dee0f387f7afe42e253f9224e2db0e4f.jpg");
+		;
+	}
+	.sided-block__item a[href*="/animes/z37430"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://ani.best/uploads/posts/2019-03/1552335955_o-moem-pererozhdenii-v-sliz-3.gif");
+	}
+.sided-block__item a[href*="/animes/26349"]+ ::before {
+		/* До */
+		background-image: url("http://avatars.mds.yandex.net/get-vthumb/1549079/21cd15e06e534f697ff27d717fcb1ace/800x450");
+		;
+	}
+	.sided-block__item a[href*="/animes/26349"]+ ::after {
+		/* После наведения*/
+		background-image: url("https://64.media.tumblr.com/811001f151e5771e98e60719c0182971/tumblr_nm7rbnynSf1rmc8dco2_500.gifv");
+	}
+
+
+
+.shikiWrapper {
+position: relative;
+display: inline-flex;
+width: calc(100% / 3);
+margin: -1px auto 2px;
+border-radius: 0.35rem;
+padding: 5px;
+align-content: space-around;
+flex-wrap: nowrap;
+flex-direction: row-reverse;
+z-index:10;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.shikiWrapper:before,
+.shikiWrapper:after {
+  content: "";
+  position: absolute;
+  bottom: 16px;
+  width: 50%;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4), 0 20px 10px #2b8acc70;
+  z-index: -10;
+}
+.shikiWrapper:before {
+  left: 0;
+  transform: rotate(-4deg);
+}
+.shikiWrapper:after {
+  right: 0;
+  transform: rotate(4deg);
+}
+.shikiWrapper .shikiSlider_c {
+  position: relative;
+  width: 100%;
+  height: 0;
+  left: 0.2px;
+  overflow: hidden;
+  border-radius: inherit;
+  user-select: none;
+}
+.shikiWrapper .shikiSlider_c,
+.shikiWrapper .shikiSlider_slide .shikiSlider_slide_img {
+  padding-bottom: 55%; /*Подогнать по высоте Слайд*/
+}
+.shikiWrapper .shikiSlider_slide .shikiSlider_slide_img {
+  width: 100vw;
+}
+.shikiWrapper .shikiSlider_s {
+  position: absolute;
+  display: inline-flex;
+  left: 0;
+  top: 0;
+  width: 100%;
+  animation: slider 50s infinite; /*Чем больше Постеров! и длиннее Анимация. время нужно увеличивать */
+  animation-fill-mode: forwards;
+  image-rendering: -webkit-optimize-contrast;
+}
+.shikiWrapper .shikiSlider_s:hover,
+.shikiWrapper .shikiSlider_slide:hover { /*при наведение Анимация останавливается*/
+  animation-play-state: paused !important;
+}
+.shikiWrapper .shikiSlider_slide {
+  position: relative;
+  display: inherit;
+  cursor: pointer;
+  width: inherit;
+  height: inherit;
+}
+.shikiWrapper .shikiSlider_slide:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.5) inset;
+}
+
+.shikiWrapper .shikiSlider_slide .shikiCaption {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: flex-end;
+  line-height: 12;
+  font-size: 1.35em;
+  color: #f0f8ff;
+  z-index: 12;
+  font-weight: bold;
+  pointer-events: none;
+  text-shadow: 1px 0 2px #000000bf, -1px 0 2px #000000bf, 0 1px 2px #000000bf,
+    0 -1px 2px #000000bf, 1px 0 2px #000000bf, -1px 0 2px #000000bf,
+    0 1px 2px #000000bf, 0 -1px 2px #000000bf;
+}
+
+
+.shikiWrapper .shikiSlider_slide:nth-of-type(1) .shikiSlider_slide_img {
+  background: url("https://w.wallhaven.cc/full/9d/wallhaven-9d588k.png")
+    no-repeat center / cover;
+}
+.shikiWrapper .shikiSlider_slide:nth-of-type(2) .shikiSlider_slide_img {
+  background: url("https://w.wallhaven.cc/full/kx/wallhaven-kx9kpm.jpg")
+    no-repeat center 20% / cover;
+}
+.shikiWrapper .shikiSlider_slide:nth-of-type(3) .shikiSlider_slide_img {
+  background: url("https://w.wallhaven.cc/full/rd/wallhaven-rdxmvq.png")
+    no-repeat center 30% / cover;
+}
+.shikiWrapper .shikiSlider_slide:nth-of-type(4) .shikiSlider_slide_img {
+  background: url("https://w.wallhaven.cc/full/l3/wallhaven-l368e2.jpg")
+    no-repeat center 30% / cover;
+}
+.shikiWrapper .shikiSlider_slide:nth-of-type(5) .shikiSlider_slide_img {
+  background: url("https://w.wallhaven.cc/full/k7/wallhaven-k7gqq7.jpg")
+    no-repeat center 30% / cover;
+}
+.shikiWrapper .shikiSlider_slide:nth-of-type(6) .shikiSlider_slide_img {
+  background: url("https://w.wallhaven.cc/full/l3/wallhaven-l3opyq.jpg")
+    no-repeat center 40% / cover;
+}
+.shikiWrapper .shikiSlider_slide:nth-of-type(7) .shikiSlider_slide_img {
+  background: url("https://w.wallhaven.cc/full/e7/wallhaven-e7e33r.jpg")
+    no-repeat center 30% / cover;
+}
+.shikiWrapper .shikiSlider_slide:nth-of-type(8) .shikiSlider_slide_img {
+  background: url("https://w.wallhaven.cc/full/j3/wallhaven-j3yvgp.jpg")
+    no-repeat center 30% / cover;
+}
+.shikiWrapper .shikiSlider_slide:nth-of-type(9) .shikiSlider_slide_img {
+  background: url("https://w.wallhaven.cc/full/y8/wallhaven-y8e9zl.png")
+    no-repeat center 30% / cover;
+}
+.shikiWrapper .shikiSlider_slide:nth-of-type(10) .shikiSlider_slide_img {
+  background: url("https://w.wallhaven.cc/full/wq/wallhaven-wq61y7.jpg")
+    no-repeat center 30% / cover;
+}
+
+@keyframes slider {
+  5%,
+  100% {
+    left: 0;
+  }
+  10%,
+  15% {
+    left: -100%;
+  }
+  20%,
+  25% {
+    left: -200%;
+  }
+  30%,
+  35% {
+    left: -300%;
+  }
+  40%,
+  45% {
+    left: -400%;
+  }
+  50%,
+  55% {
+    left: -500%;
+  }
+  60%,
+  65% {
+    left: -600%;
+  }
+  70%,
+  75% {
+    left: -700%;
+  }
+  80%,
+  85% {
+    left: -800%;
+  }
+  90%,
+  95% {
+    left: -900%;
+  }
+}
+
+
+
+
+
+
+/*Favourity*/
+/* Замена стандартных постеров (указывается один раз!) */
+@import url(https://css-club.web.app/css/custom_posters.min.css);
+/*levi*/
+[href*="characters/45627-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.pinimg.com/550x/ec/14/99/ec1499e14e02f50bb90f5e84841ece8f.jpg);
+}
+/*ervin*/
+[href*="characters/46496-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.pinimg.com/originals/f8/3f/9c/f83f9cc9c1d97e763d8172f8090905f8.jpg);
+}
+/*blaus*/
+[href*="characters/45887-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.pinimg.com/736x/a0/20/b7/a020b7461b6fb75484f424bf27b1ff17.jpg);
+}
+/*fubuki*/
+[href*="characters/81931-"] {
+  --show-default: 0;
+  --custom-image: url(https://preview.redd.it/537vhejttip71.png?auto=webp&s=ae1ee02f0a6b6d92b84e80f7657cd00d4c6df962);
+}
+/*emilia*/
+[href*="characters/118737-"] {
+  --show-default: 0;
+  --custom-image: url(https://nyaa.shikimori.one/system/user_images/original/606264/1953220.jpg);
+}
+/*Echidna*/
+[href*="characters/145877-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.pinimg.com/564x/51/54/7b/51547b127d17468ece528cd4b14a20e9.jpg);
+}
+
+
+@media screen and (min-width: 1200px) {
+   #profiles_show .achievements .cc-2 > .c-column:first-child,
+   #profiles_show .achievements .cc-2 > .c-column:nth-child(2) {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+   }
+   #profiles_show .achievements .cc-2 > .c-column:nth-child(3),
+   #profiles_show .achievements .cc-2 > .c-column:nth-child(4) {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 7px;
+   }
+   #profiles_show .achievements .cc-2 > .c-column:nth-child(4) {
+      margin-left: 0;
+      margin-top: 0;
+      margin-bottom: 0px;
+   }
+   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
+      margin: 3px 2% -3.65% 0;
+   }
+}
+
+.specials { 
+  display: flex; 
+  justify-content: space-evenly;
+  border-radius:15px;
+} 
+.specials__inner { 
+  border-radius: 15px;
+  max-width: 445px;
+  max-height: 250px;
+  text-align: center;
+} 
+.specials__inner img {
+  border-radius: 15px solid black;
+}
+
+
+
+
+/* Bootstrap Tabs. Нативные табы с оформлением Bootstrap'a.(под мой стиль) */
+/* Bootstrap 3 Tabs */
+ 
+.b-tabs .b-tabs_switch {
+display: inline-block;
+padding: 10px 15px;
+margin-right: 2px;
+margin-bottom: -1px;
+border: 1px solid transparent;
+border-radius: 4px 4px 0 0;
+color: #777;
+cursor: pointer;
+user-select: none;
+}
+.b-tabs .b-tabs_switch:not(.active):hover {
+background-color: #eee;
+border-color: #eee #eee #ddd;
+}
+.b-tabs .b-tabs_switch.active,
+.b-tabs .b-tabs_switch.active:hover {
+color: #fff;
+cursor: default;
+background-color: #141f40;
+border: none; /*1px solid #ddd;*/
+border-bottom-color: transparent;
+}
+
+.b-tabs .b-tabs_panel {
+padding: 15px;
+background-color: #141f40;
+border: none; /*1px solid #ddd;*/
+}
+/**
+* Вертикальные вкладки
+*/
+/* Контейнер */
+.b-tabs.--vertical {
+display: flex;
+border: none; /*1px solid #ddd;*/
+border-radius: 3px;
+}
+
+/* Список переключателей */
+.b-tabs.--vertical .b-tabs_list {
+flex-shrink: 0;
+width: 200px;
+padding: 0;
+border-right: none; /*1px solid #ddd;*/
+}
+/* Переключатель */
+.b-tabs.--vertical .b-tabs_switch {
+display: block;
+padding: 8px 16px;
+border-bottom: 0;
+font-weight: bold;
+line-height: 24px;
+cursor: pointer;
+user-select: none;
+margin-right: 0;
+border-radius: 0;
+}
+.b-tabs.--vertical .b-tabs_switch:not(.active):hover {
+background-color: #eee;
+border-color: #eee #eee #ddd;
+}
+.b-tabs.--vertical .b-tabs_switch.active {
+background: #141f40;
+color: #fff;
+cursor: default;
+}
+.b-tabs.--vertical .b-tabs_switch:hover,
+.b-tabs.--vertical .b-tabs_switch.active:hover {
+background: #141f40;
+}
+
+/* Содержимое вкладки */
+.b-tabs.--vertical .b-tabs_panel {
+flex-grow: 1;
+padding: 18px 24px;
+}
+/*Адаптация вертикальных Табов намаленьких экранах*/
+/**/
+@media screen and (max-width: 1024px) {
+.b-tabs.--vertical .b-tabs_list {
+width: 100%;
+border-right: none;
+border-radius: 11px 11px 0px 0px;
+}
+.b-tabs.--vertical .b-tabs_switch {
+display: block;
+margin: 5px;
+border-right: 4px;
+border-radius: 8px 8px 8px 8px;
+text-align: center;
+}
+.b-tabs.--vertical {
+display: block;
+border-radius: 11px;
+}
+.b-tabs.--vertical .b-tabs_panel {
+border-radius: 11px 11px 11px 11px;
+}
+}
+
+
+@media screen and (max-width: 767px) {
+.b-shiki_editor aside.buttons .editor-file {
+position: relative;
+}
+.b-shiki_editor aside.buttons .editor-file > span {
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+margin: 0 !important;
+}
+
+.b-shiki_editor aside.buttons .editor-controls {
+white-space: nowrap;
+}
+
+.b-shiki_editor aside.buttons .editor-controls > span {
+display: inline-block;
+}
+.b-shiki_editor aside.buttons .editor-file > span > input {
+width: 100%;
+height: 100%;
+}
+}
+
+
+/*#profiles_show .cc-favourites  {
+    background: url(https://miro.medium.com/max/1200/0*FcS7rDL0ctSCy9Fl);
+	background-size: cover;
+	transition: all 0.45s ease;
+  	z-index:20;
+}
+#profiles_show .cc-favourites  .entry {
+    opacity: 0;
+	transition: opacity 0.45s ease, background 0.15s ease;
+	border-top: none;
+  }
+#profiles_show .cc-favourites .entry{
+   	opacity: 1;
+	transition: opacity 0.5s ease, background 0.15s ease;
+}
+#profiles_show .cc-favourites:hover {
+  	background: transparent;
+	transition: all 0.45s ease;
+}*/
